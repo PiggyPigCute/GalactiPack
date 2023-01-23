@@ -1,0 +1,13 @@
+{
+	"criteria": {
+		"moon":{
+			"trigger": "changed_dimension",
+			"conditions": {
+				"to": "galactipack:moon"
+			}
+		}
+	},
+	"rewards": {
+		"function": "galactipack:dimension/use_o2"
+	}
+}

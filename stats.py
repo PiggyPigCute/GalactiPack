@@ -22,11 +22,14 @@ def func(path):
 	global bad
 	try:
 		a = open(path)
-		a.readlines()
+		b = a.readlines()[0]
 		a.close()
-		bad.append(path)
+		if b != "\n" and b[0:2] != "##":
+			bad.append(path)
 	except UnicodeDecodeError:
-		pass
+		a.close()
+	except IndexError:
+		a.close()
 
 print("advancements:" + str(surch(["json"],"data/galactipack/advancements")) + " (display: " + str(surch(["json"],"data/galactipack/advancements/display")) + ")")
 print("functions:" + str(surch(["mcfunction"],"data/galactipack/functions",func)))
