@@ -1,5 +1,7 @@
 
-# function that give alle the items
+# function that give alle the items (executed by the user)
+
+
 
 # Items
 loot give @s loot galactipack:items/wrench
