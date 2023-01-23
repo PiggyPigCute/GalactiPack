@@ -1,4 +1,7 @@
-## function galactipack:base/sched_1s
+
+# Schedule 1s as every blocks (← ./)
+
+
 
 # Smelter
 execute if entity @s[tag=galactipack.smelter] run function galactipack:smelter/sched
