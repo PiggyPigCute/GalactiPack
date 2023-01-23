@@ -1,0 +1,18 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:glow_item_frame"
+					],
+					"nbt": "{galactipack:{space_crafter:1b}}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "galactipack:space_crafter/place"
+	}
+}

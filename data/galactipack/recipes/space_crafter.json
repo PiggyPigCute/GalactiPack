@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "RCR",
+        "CTC",
+        "SSS"
+    ],
+    "key": {
+        "R": {
+            "item": "minecraft:redstone"
+        },
+        "C": {
+            "item": "minecraft:copper_ingot"
+        },
+        "T": {
+            "item": "minecraft:crafting_table"
+        },
+		"S": {
+			"tag": "galactipack:various_base_stones"
+		}
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

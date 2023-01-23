@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:glow_item_frame",
+      "nbt": "{CustomModelData:8977002}"
+    },
+    "title": "Uh, that's hot",
+    "description": "Build a Smelter in the Space Crafter",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "galactipack:display/use_wrench",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{galactipack:{smelter:1b}}"
+          }
+        ]
+      }
+    }
+  }
+}

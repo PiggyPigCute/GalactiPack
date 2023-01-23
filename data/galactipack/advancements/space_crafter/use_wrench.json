@@ -1,0 +1,27 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:item_used_on_block",
+        "conditions": {
+          "item": {
+            "items": [
+              "command_block"
+            ],
+            "nbt": "{ctc:{id:\"wrench\"}}"
+          },
+          "location": {
+            "block": {
+              "blocks": [
+                "minecraft:dropper"
+              ],
+              "nbt": "{CustomName:'{\"color\":\"black\",\"text\":\"Space Crafter\"}'}"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "galactipack:space_crafter/craft/use_wrench"
+    }
+  }
+  

@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "galactipack:space_crafter"
+      }
+    }
+  },
+  "rewards": {
+    "function": "galactipack:craft/space_crafter"
+  }
+}

@@ -1,0 +1,10 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "inventory_changed"
+		}
+	},
+	"rewards": {
+		"function": "galactipack:base/inventory_changed"
+	}
+}

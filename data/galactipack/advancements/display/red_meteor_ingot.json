@@ -1,0 +1,27 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:command_block",
+        "nbt": "{CustomModelData:8977008}"
+      },
+      "title": "Spacial Ingot",
+      "description": "Smelt a Raw Meteoric Iron",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "galactipack:display/red_meteor_iron",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "nbt": "{ctc:{id:\"red_meteor_ingot\"}}"
+            }
+          ]
+        }
+      }
+    }
+  }
+  

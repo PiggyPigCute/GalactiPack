@@ -1,0 +1,51 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:bundle"
+      },
+      "title": "The whole Collection",
+      "description": "Collect all the items of the DataPack",
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "galactipack:display/root",
+    "criteria": {
+      "copper_plate": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:command_block"
+              ],
+              "nbt": "{galactipack:{copper_plate:1b}}"
+            }
+          ]
+        }
+      },
+      "iron_plate": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:command_block"
+              ],
+              "nbt": "{galactipack:{iron_plate:1b}}"
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "copper_plate"
+      ],
+      [
+        "iron_plate"
+      ]
+    ]
+  }
+  

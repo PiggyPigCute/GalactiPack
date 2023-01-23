@@ -1,0 +1,18 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:glow_item_frame"
+					],
+					"nbt": "{galactipack:{pig_assembler:1b}}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "galactipack:pig_assembler/place"
+	}
+}
