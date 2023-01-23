@@ -14,3 +14,7 @@ execute if score #selection galactipack.use matches 4 run data modify block ~ ~ 
 execute if score #selection galactipack.use matches 5 run data modify block ~ ~ ~ Items[{Slot:2b}].tag set from storage galactipack:items all.lpc.Tanks[5]
 execute if score #selection galactipack.use matches 6 run data modify block ~ ~ ~ Items[{Slot:2b}].tag set from storage galactipack:items all.lpc.Tanks[6]
 execute if score #selection galactipack.use matches 7 run data modify block ~ ~ ~ Items[{Slot:2b}].tag set from storage galactipack:items all.lpc.Tanks[7]
+
+
+# display
+playsound item.bucket.fill_lava block @a
