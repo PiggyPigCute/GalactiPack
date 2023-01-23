@@ -3,7 +3,7 @@ msg _PiggyPig_ Load!
 
 
 # Schedules
-schedule function galactipack:base/sched_1s 5t replace
+schedule function galactipack:base/sched_1s/ 5t replace
 
 
 # Scores

@@ -1,5 +1,7 @@
 
 
+# function that change the Tank Lore  (← ./air  and  ./bucket)
+
 item replace block ~ ~ ~ container.1 with air
 
 execute store result score #selection galactipack.use run data get block ~ ~ ~ Items[{Slot:2b}].tag.galactipack.lpc_tank_tier
