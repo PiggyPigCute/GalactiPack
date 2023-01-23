@@ -1,0 +1,14 @@
+{
+	"criteria": {
+	  "requirement": {
+		"trigger": "minecraft:changed_dimension",
+		"conditions": {
+		  "to": "minecraft:overworld"
+		}
+	  }
+	},
+	"rewards": {
+	  "function": "galactipack:in_space/go_to_overworld"
+	}
+  }
+  
