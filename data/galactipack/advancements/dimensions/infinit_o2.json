@@ -1,0 +1,13 @@
+{
+	"criteria": {
+		"overworld":{
+			"trigger": "changed_dimension",
+			"conditions": {
+				"to": "overworld"
+			}
+		}
+	},
+	"rewards": {
+		"function": "galactipack:dimension/infinit_o2"
+	}
+}
