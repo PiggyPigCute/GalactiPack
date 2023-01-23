@@ -1,0 +1,18 @@
+{
+	"criteria": {
+	  "requirement": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+		  "items": [
+			{
+			  "nbt": "{galactipack:{lpc_tank:1b}}"
+			}
+		  ]
+		}
+	  }
+	},
+	"rewards": {
+	  "function": "galactipack:lpc/get_tank/"
+	}
+  }
+  
