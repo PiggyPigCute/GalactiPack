@@ -9,6 +9,7 @@ schedule function galactipack:base/sched_120s 1s replace
 
 # Scores
 scoreboard objectives add galactipack.use dummy
+scoreboard objectives add galactipack.dimension dummy
 
 
 # Items ands blocks

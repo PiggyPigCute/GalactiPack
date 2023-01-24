@@ -8,6 +8,6 @@
 		}
 	},
 	"rewards": {
-		"function": "galactipack:dimensions/use_o2"
+		"function": "galactipack:dimensions/moon"
 	}
 }
