@@ -5,4 +5,4 @@
 # at: World
 
 
-title @s[tag=galactipack.use_o2.title] actionbar "on the moon!"
+title @s[tag=galactipack.o2_title] actionbar "on the moon!"

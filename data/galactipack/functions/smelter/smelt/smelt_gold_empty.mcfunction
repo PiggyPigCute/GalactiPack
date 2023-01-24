@@ -1,5 +1,5 @@
 
-# fonction utile pour vérifier si la cuisson d'un lingot de cuivre est possible dans un semelter ( <- ./coal)
+# function when gold is in first slot and nothing in the exit slot ( <- ./smelt_gold)
 
 
 

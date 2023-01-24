@@ -5,4 +5,4 @@ schedule function galactipack:base/sched_120s 3s
 
 
 #moon
-execute as @r[tag=galactipack.on_moon] at @s run function galactipack:meteor/moon/a_generate
+execute as @r[scores={galactipack.dimension=1}] at @s run function galactipack:meteor/moon/a_generate

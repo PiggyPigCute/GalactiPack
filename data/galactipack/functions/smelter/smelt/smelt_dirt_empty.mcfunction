@@ -1,5 +1,5 @@
 
-# fonction utile pour vérifier si la cuisson d'une dirt est possible dans un semelter ( <- ./coal)
+# function when dirt is in first slot and nothing in the exit slot ( <- ./dirt)
 
 
 

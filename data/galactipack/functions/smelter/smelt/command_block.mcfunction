@@ -4,10 +4,11 @@
 
 # as-at l'item frame du smelter
 
+say cd
 
 # raw meteoric iron
-# execute if data block ~ ~ ~ Items[{Slot:0b,tag:{ctc:{id:"moon_meteric_iron"}}}] run function galactipack:smelter/smelt/smelt_moon_meteoric_iron
+execute if data block ~ ~ ~ Items[{Slot:0b,tag:{ctc:{id:"red_meteor_iron"}}}] run function galactipack:smelter/smelt/smelt_red_meteor_iron
 
-# meteoric iron ingot
-# execute if data block ~ ~ ~ Items[{Slot:0b,tag:{ctc:{id:"moon_meteric_ingot"}}}] run function galactipack:smelter/smelt/smelt_moon_meteoric_ingot
+# meteor iron ingot
+execute if data block ~ ~ ~ Items[{Slot:0b,tag:{ctc:{id:"red_meteor_ingot"}}}] run function galactipack:smelter/smelt/smelt_red_meteor_ingot
 

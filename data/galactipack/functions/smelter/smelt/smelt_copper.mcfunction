@@ -1,5 +1,5 @@
 
-# fonction utile pour vérifier si la cuisson d'un lingot de cuivre est possible dans un semelter ( <- ./coal)
+# function when copper is in frist slot ( <- ./coal)
 
 
 execute if data block ~ ~ ~ Items[{Slot:2b,id:"minecraft:command_block",tag:{ctc:{id:"copper_plate"}}}] run function galactipack:smelter/smelt/smelt
