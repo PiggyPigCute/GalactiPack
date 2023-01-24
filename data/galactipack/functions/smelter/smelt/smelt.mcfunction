@@ -6,7 +6,7 @@
 item modify block ~ ~ ~ container.0 galactipack:-1
 
 # désincrémente le consbustible
-execute if predicate galactipack:chance_5pc run item modify block ~ ~ ~ container.1 galactipack:-1
+execute unless predicate galactipack:chance_10pc run item modify block ~ ~ ~ container.1 galactipack:-1
 
 # incrémente le résultat
 item modify block ~ ~ ~ container.2 galactipack:add1

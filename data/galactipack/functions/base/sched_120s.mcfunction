@@ -1,7 +1,7 @@
 
 # schedule 120s (← ./load)
 
-schedule function galactipack:base/sched_120s 3s
+schedule function galactipack:base/sched_120s 120s
 
 
 #moon

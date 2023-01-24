@@ -2,7 +2,7 @@
 # function when copper is in frist slot ( <- ./coal)
 
 
-execute if data block ~ ~ ~ Items[{Slot:2b,id:"minecraft:command_block",tag:{ctc:{id:"copper_plate"}}}] run function galactipack:smelter/smelt/smelt
+execute if data block ~ ~ ~ Items[{Slot:2b,tag:{ctc:{id:"copper_plate",from:"piggypig:galactipack"}}}] run function galactipack:smelter/smelt/smelt
 
 execute unless data block ~ ~ ~ Items[{Slot:2b}] run function galactipack:smelter/smelt/smelt_copper_empty
 
