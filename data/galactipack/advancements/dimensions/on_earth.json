@@ -1,13 +1,13 @@
 {
 	"criteria": {
-		"moon":{
+		"overworld":{
 			"trigger": "changed_dimension",
 			"conditions": {
-				"to": "galactipack:moon"
+				"to": "overworld"
 			}
 		}
 	},
 	"rewards": {
-		"function": "galactipack:dimensions/use_o2"
+		"function": "galactipack:dimensions/on_earth"
 	}
 }
