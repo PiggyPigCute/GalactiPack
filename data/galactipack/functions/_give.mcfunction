@@ -4,21 +4,21 @@
 
 
 # Items
-loot give @s loot galactipack:items/wrench
-loot give @s loot galactipack:items/copper_plate
-loot give @s loot galactipack:items/iron_plate
-loot give @s loot galactipack:items/gold_plate
-loot give @s loot galactipack:items/rocket_engine
-loot give @s loot galactipack:items/nose_cone
-loot give @s loot galactipack:items/red_meteor_iron
-loot give @s loot galactipack:items/red_meteor_ingot
-loot give @s loot galactipack:items/red_meteor_plate
+loot give @s loot galactipack:items/items/wrench
+loot give @s loot galactipack:items/items/plates/copper_plate
+loot give @s loot galactipack:items/items/plates/iron_plate
+loot give @s loot galactipack:items/items/plates/gold_plate
+loot give @s loot galactipack:items/items/rocket_engine
+loot give @s loot galactipack:items/items/nose_cone
+loot give @s loot galactipack:items/items/red_meteor_iron
+loot give @s loot galactipack:items/items/red_meteor_ingot
+loot give @s loot galactipack:items/items/plates/red_meteor_plate
 
 # Blocks
-loot give @s loot galactipack:items/space_crafter
-loot give @s loot galactipack:items/smelter
-loot give @s loot galactipack:items/pig_assembler
-loot give @s loot galactipack:items/lpc
+loot give @s loot galactipack:items/blocks/space_crafter
+loot give @s loot galactipack:items/blocks/smelter
+loot give @s loot galactipack:items/blocks/pig_assembler
+loot give @s loot galactipack:items/blocks/lpc
 
 # Specials
 loot give @s loot galactipack:items/rocket_t1

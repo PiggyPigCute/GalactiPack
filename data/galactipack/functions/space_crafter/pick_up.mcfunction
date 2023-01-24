@@ -11,4 +11,4 @@ advancement revoke @s only galactipack:space_crafter/pick_up
 
 clear @s dropper{display:{Name:'{"color":"black","text":"Space Crafter"}'}} 1
 
-loot give @s loot galactipack:items/space_crafter
+loot give @s loot galactipack:items/blocks/space_crafter
