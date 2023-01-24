@@ -12,4 +12,4 @@ execute as @e[type=glow_item_frame,tag=galactipack.sched_1s] at @s run function 
 
 
 # Players in space
-execute as @a[tag=galactipack.in_space] run function galactipack:base/sched_1s/player_in_space
+execute as @e[type=player,tag=galactipack.in_space] run function galactipack:base/sched_1s/player_in_space
