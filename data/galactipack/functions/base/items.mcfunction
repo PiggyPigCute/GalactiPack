@@ -27,7 +27,7 @@ data modify storage galactipack:items all.lpc set value {           id:"minecraf
 
 
 # Rockets Items (item_frame)
-data modify storage galactipack:items all.rocket_t1 set value {id:"minecraft:item_frame",tag:{CustomModelData:8977401,EntityTag:{Tags:["galactipack.rocket_t1.place","smithed_entity"]},ctc:{id:"rocket_t1", from:"piggypig:galactipack"},display:{Lore:['{"text":" - Moon","color":"aqua"}','{"text":""}','{"text":"GalactiPack","color": "blue"}'],Name:'{"text":"Space Rocket - Tier 1","italic": false}'}, galactipack:{rocket_t1:1b, rocket:1b, rocket_tier:1b}}}
+data modify storage galactipack:items all.rocket_t1 set value {id:"minecraft:item_frame",Slot:13b,tag:{CustomModelData:8977401,EntityTag:{Tags:["galactipack.rocket_t1.place","smithed_entity"]},ctc:{id:"rocket_t1", from:"piggypig:galactipack"},display:{Lore:['{"text":" - Moon","color":"aqua"}','{"text":""}','{"text":"GalactiPack","color": "blue"}'],Name:'{"text":"Space Rocket - Tier 1","italic": false}'}, galactipack:{rocket_t1:1b, rocket:1b, rocket_tier:1b}}}
 
 
 # Coaldirt (charcoal)
