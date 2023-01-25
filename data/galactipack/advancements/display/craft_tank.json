@@ -1,18 +1,18 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:iron_ingot"
-      },
-      "title": "Piece of Air",
-      "description": "Craft an Oxygen Tank",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
-    },
-    "parent": "galactipack:display/craft_mask",
-    "criteria": {
-      "requirement": {
-        "trigger": "minecraft:inventory_changed",
+	"display": {
+		"icon": {
+		"item": "minecraft:iron_ingot"
+		},
+		"title": "Piece of Air",
+		"description": "Craft an Oxygen Tank",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "galactipack:display/craft_mask",
+	"criteria": {
+		"requirement": {
+		"trigger": "minecraft:inventory_changed",
 		"conditions": {
 			"items": [
 				{
@@ -20,7 +20,7 @@
 				}
 			]
 		}
-      }
-    }
-  }
-  
+		}
+	}
+	}
+	

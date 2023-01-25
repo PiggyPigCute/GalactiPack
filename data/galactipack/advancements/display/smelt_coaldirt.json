@@ -1,24 +1,24 @@
 {
 	"display": {
-	  "icon": {
+		"icon": {
 		"item": "minecraft:charcoal",
 		"nbt": "{CustomModelData:8977001}"
-	  },
-	  "title": "Dirty Coal",
-	  "description": "Find the utility of the dirt with your new Smelter"
+		},
+		"title": "Dirty Coal",
+		"description": "Find the utility of the dirt with your new Smelter"
 	},
 	"parent": "galactipack:display/craft_smelter",
 	"criteria": {
-	  "requirement": {
+		"requirement": {
 		"trigger": "minecraft:inventory_changed",
 		"conditions": {
-		  "items": [
+			"items": [
 			{
-			  "nbt": "{ctc:{id:\"coaldirt\"}}"
+				"nbt": "{ctc:{id:\"coaldirt\"}}"
 			}
-		  ]
+			]
 		}
-	  }
+		}
 	}
-  }
-  
+	}
+	

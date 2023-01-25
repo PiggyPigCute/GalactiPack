@@ -1,24 +1,24 @@
 {
 	"display": {
-	  "icon": {
+		"icon": {
 		"item": "minecraft:command_block",
 		"nbt": "{CustomModelData:8977002}"
-	  },
-	  "title": "Worth?",
-	  "description": "Press copper in your new Smelter"
+		},
+		"title": "Worth?",
+		"description": "Press copper in your new Smelter"
 	},
 	"parent": "galactipack:display/craft_smelter",
 	"criteria": {
-	  "requirement": {
+		"requirement": {
 		"trigger": "minecraft:inventory_changed",
 		"conditions": {
-		  "items": [
+			"items": [
 			{
-			  "nbt": "{ctc:{id:\"copper_plate\"}}"
+				"nbt": "{ctc:{id:\"copper_plate\"}}"
 			}
-		  ]
+			]
 		}
-	  }
+		}
 	}
-  }
-  
+	}
+	

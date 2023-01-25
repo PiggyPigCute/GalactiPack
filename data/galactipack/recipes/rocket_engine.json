@@ -1,32 +1,32 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "CVC",
-        "IBI",
-        "LGL"
-    ],
-    "key": {
-        "L": {
-            "item": "minecraft:lightning_rod"
-        },
-        "I": {
-            "item": "minecraft:iron_block"
-        },
-        "C": {
-            "item": "minecraft:copper_block"
-        },
-        "B": {
-            "item": "minecraft:blast_furnace"
-        },
-        "V": {
-            "item": "minecraft:lava_bucket"
-        },
-        "G": {
-            "item": "minecraft:gunpowder"
-        }
-    },
-    "result": {
-        "item": "minecraft:knowledge_book",
-        "count": 1
-    }
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"CVC",
+		"IBI",
+		"LGL"
+	],
+	"key": {
+		"L": {
+			"item": "minecraft:lightning_rod"
+		},
+		"I": {
+			"item": "minecraft:iron_block"
+		},
+		"C": {
+			"item": "minecraft:copper_block"
+		},
+		"B": {
+			"item": "minecraft:blast_furnace"
+		},
+		"V": {
+			"item": "minecraft:lava_bucket"
+		},
+		"G": {
+			"item": "minecraft:gunpowder"
+		}
+	},
+	"result": {
+		"item": "minecraft:knowledge_book",
+		"count": 1
+	}
 }

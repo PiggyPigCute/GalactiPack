@@ -1,13 +1,13 @@
 {
-  "criteria": {
-    "trigger": {
-      "trigger": "minecraft:recipe_unlocked",
-      "conditions": {
-        "recipe": "galactipack:pig_assembler"
-      }
-    }
-  },
-  "rewards": {
-    "function": "galactipack:craft/pig_assembler"
-  }
+	"criteria": {
+	"trigger": {
+		"trigger": "minecraft:recipe_unlocked",
+		"conditions": {
+		"recipe": "galactipack:pig_assembler"
+		}
+	}
+	},
+	"rewards": {
+	"function": "galactipack:craft/pig_assembler"
+	}
 }

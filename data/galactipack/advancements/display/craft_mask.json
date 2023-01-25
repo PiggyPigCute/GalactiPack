@@ -1,18 +1,18 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:glass"
-      },
-      "title": "Space Scuba",
-      "description": "Craft an Oxygen Mask",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
-    },
-    "parent": "galactipack:display/root",
-    "criteria": {
-      "requirement": {
-        "trigger": "minecraft:inventory_changed",
+	"display": {
+		"icon": {
+		"item": "minecraft:glass"
+		},
+		"title": "Space Scuba",
+		"description": "Craft an Oxygen Mask",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "galactipack:display/root",
+	"criteria": {
+		"requirement": {
+		"trigger": "minecraft:inventory_changed",
 		"conditions": {
 			"items": [
 				{
@@ -20,7 +20,7 @@
 				}
 			]
 		}
-      }
-    }
-  }
-  
+		}
+	}
+	}
+	
