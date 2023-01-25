@@ -1,27 +1,27 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:command_block",
-        "nbt": "{CustomModelData:8977009}"
-      },
-      "title": "Make Meteorite into plates",
-      "description": "Smelt an Meteoric Iron Ingot",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
-    },
-    "parent": "galactipack:display/red_meteor_ingot",
-    "criteria": {
-      "requirement": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "nbt": "{ctc:{id:\"red_meteor_plate\"}}"
-            }
-          ]
-        }
-      }
-    }
-  }
-  
+	"display": {
+		"icon": {
+		"item": "minecraft:command_block",
+		"nbt": "{CustomModelData:8977009}"
+		},
+		"title": "Make Meteorite into plates",
+		"description": "Smelt an Meteoric Iron Ingot",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "galactipack:display/red_meteor_ingot",
+	"criteria": {
+		"requirement": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+			{
+				"nbt": "{ctc:{id:\"red_meteor_plate\"}}"
+			}
+			]
+		}
+		}
+	}
+	}
+	

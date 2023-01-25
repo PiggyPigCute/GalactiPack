@@ -1,5 +1,5 @@
 {
 	"values": [
-		"galactipack:base/load"
+		"#load:_private/load"
 	]
 }

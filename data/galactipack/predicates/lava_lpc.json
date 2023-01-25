@@ -1,5 +1,5 @@
 {
-    "condition": "location_check",
+	"condition": "location_check",
 	"predicate": {
 		"block": {
 			"nbt": "{Items:[{Slot:1b,id:\"minecraft:lava_bucket\"}]}"

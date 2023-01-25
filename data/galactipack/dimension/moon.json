@@ -1,12 +1,12 @@
 {
 	"type": "galactipack:moon_type",
 	"generator": {
-	  "type": "minecraft:noise",
-	  "settings": "galactipack:moon_settings",
-	  "biome_source": {
+		"type": "minecraft:noise",
+		"settings": "galactipack:moon_settings",
+		"biome_source": {
 		"type": "minecraft:fixed",
 		"biome": "galactipack:moon_biome"
-	  }
+		}
 	}
-  }
-  
+	}
+	

@@ -1,13 +1,13 @@
 {
-  "criteria": {
-    "trigger": {
-      "trigger": "minecraft:recipe_unlocked",
-      "conditions": {
-        "recipe": "galactipack:rocket_engine"
-      }
-    }
-  },
-  "rewards": {
-    "function": "galactipack:craft/rocket_engine"
-  }
+	"criteria": {
+	"trigger": {
+		"trigger": "minecraft:recipe_unlocked",
+		"conditions": {
+		"recipe": "galactipack:rocket_engine"
+		}
+	}
+	},
+	"rewards": {
+	"function": "galactipack:craft/rocket_engine"
+	}
 }

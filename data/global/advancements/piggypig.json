@@ -1,18 +1,18 @@
 {
-    "display": {
-        "title": "PiggyPig",
-        "description": "",
-        "icon": {
-            "item": "minecraft:player_head",
-            "nbt": "{SkullOwner: \"_PiggyPig_\"}"
-        },
-        "show_toast": false,
-        "announce_to_chat": false
-    },
-    "parent": "global:root",
-    "criteria": {
-        "trigger": {
-            "trigger": "minecraft:tick"
-        }
-    }
+	"display": {
+		"title": "PiggyPig",
+		"description": "",
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner: \"_PiggyPig_\"}"
+		},
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "global:root",
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:tick"
+		}
+	}
 }

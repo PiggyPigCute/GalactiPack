@@ -2,7 +2,7 @@
 <<<<<<< HEAD
 	"condition": "minecraft:location_check",
 =======
-    "condition": "minecraft:location_check",
+	"condition": "minecraft:location_check",
 >>>>>>> 5a2f0cb381b7725f758494fee8ac9cae7cc2ca8a
 	"predicate": {
 		"dimension": "galactipack:moon"

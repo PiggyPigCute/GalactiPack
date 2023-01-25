@@ -1,27 +1,27 @@
 {
-    "criteria": {
-      "requirement": {
-        "trigger": "minecraft:item_used_on_block",
-        "conditions": {
-          "item": {
-            "items": [
-              "command_block"
-            ],
-            "nbt": "{ctc:{id:\"wrench\"}}"
-          },
-          "location": {
-            "block": {
-              "blocks": [
-                "minecraft:barrel"
-              ],
-              "nbt": "{CustomName:'{\"color\":\"black\",\"text\":\"Pig Assembler\"}'}"
-            }
-          }
-        }
-      }
-    },
-    "rewards": {
-      "function": "galactipack:pig_assembler/craft/use_wrench"
-    }
-  }
-  
+	"criteria": {
+		"requirement": {
+		"trigger": "minecraft:item_used_on_block",
+		"conditions": {
+			"item": {
+			"items": [
+				"command_block"
+			],
+			"nbt": "{ctc:{id:\"wrench\"}}"
+			},
+			"location": {
+			"block": {
+				"blocks": [
+				"minecraft:barrel"
+				],
+				"nbt": "{CustomName:'{\"color\":\"black\",\"text\":\"Pig Assembler\"}'}"
+			}
+			}
+		}
+		}
+	},
+	"rewards": {
+		"function": "galactipack:pig_assembler/craft/use_wrench"
+	}
+	}
+	

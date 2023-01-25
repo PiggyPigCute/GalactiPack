@@ -1,24 +1,24 @@
 {
 	"display": {
-	  "icon": {
+		"icon": {
 		"item": "minecraft:command_block",
 		"nbt": "{CustomModelData:8977003}"
-	  },
-	  "title": "Strong.",
-	  "description": "Press iron in your new Smelter"
+		},
+		"title": "Strong.",
+		"description": "Press iron in your new Smelter"
 	},
 	"parent": "galactipack:display/smelt_copper",
 	"criteria": {
-	  "requirement": {
+		"requirement": {
 		"trigger": "minecraft:inventory_changed",
 		"conditions": {
-		  "items": [
+			"items": [
 			{
-			  "nbt": "{ctc:{id:\"iron_plate\"}}"
+				"nbt": "{ctc:{id:\"iron_plate\"}}"
 			}
-		  ]
+			]
 		}
-	  }
+		}
 	}
-  }
-  
+	}
+	
