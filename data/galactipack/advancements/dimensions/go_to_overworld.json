@@ -8,6 +8,6 @@
 		}
 	},
 	"rewards": {
-		"function": "galactipack:dimensions/return_to_overworld"
+		"function": "galactipack:dimensions/go_to_overworld"
 	}
 }
