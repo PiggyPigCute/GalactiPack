@@ -1,0 +1,48 @@
+{
+	"temperature": 2,
+	"downfall": 0,
+	"precipitation": "none",
+	"temperature_modifier": "none",
+	"creature_spawn_probability": 0,
+	"effects": {
+		"sky_color": 393248,
+		"fog_color": 12638463,
+		"water_color": 4159204,
+		"water_fog_color": 329011,
+		"particle": {
+			"options": {
+				"type": "minecraft:ash"
+			},
+			"probability": 0.1
+		}
+	},
+	"spawners": {},
+	"spawn_costs": {},
+	"carvers": {
+		"air": [
+			"minecraft:canyon"
+		]
+	},
+	"features": [
+		[],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[
+			"minecraft:ore_tuff",
+			"minecraft:ore_coal_lower",
+			"minecraft:ore_iron_middle",
+			"minecraft:ore_iron_small",
+			"minecraft:ore_redstone_lower",
+			"minecraft:ore_diamond",
+			"minecraft:ore_copper",
+			"minecraft:ore_gold_lower"
+		],
+		[],
+		[],
+		[],
+		[]
+	]
+}
