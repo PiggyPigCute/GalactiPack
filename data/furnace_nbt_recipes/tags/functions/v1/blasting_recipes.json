@@ -1,5 +1,7 @@
 {
 	"values": [
-		"furnace_nbt_recipes:v1.0/calls/blasting_recipes"
+		"furnace_nbt_recipes:v1.0/calls/blasting_recipes",
+		"galactipack:craft/furnace/blast",
+		"galactipack:craft/furnace/blast_and_furnace"
 	]
 }

@@ -1,5 +1,6 @@
 {
 	"values": [
-		"furnace_nbt_recipes:v1.0/calls/disable_cooking"
+		"furnace_nbt_recipes:v1.0/calls/disable_cooking",
+		"galactipack:craft/furnace/disable_cooking"
 	]
 }
