@@ -7,7 +7,7 @@
 
 
 # set Count
-execute store result entity @s Item.Count byte 1 run scoreboard players get #crafting.exit galactipack.use
+execute store result entity @s Item.Count byte 1 run scoreboard players get #crafting.exit galactipack.data
 
 # set id
 data modify entity @s Item.id set from storage galactipack:use Crafting.id

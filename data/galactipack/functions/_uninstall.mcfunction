@@ -12,7 +12,7 @@ schedule clear galactipack:base/sched_1s/
 
 
 # Scores
-scoreboard objectives remove galactipack.use
+scoreboard objectives remove galactipack.data
 scoreboard objectives remove galactipack.dimension
 
 
