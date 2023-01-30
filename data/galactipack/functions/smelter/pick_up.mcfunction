@@ -11,4 +11,4 @@ advancement revoke @s only galactipack:smelter/pick_up
 
 clear @s blast_furnace{display:{Name:'{"color":"black","text":"Smelter"}'}} 1
 
-loot give @s loot galactipack:items/blocks/smelter
+loot give @s loot galactipack:i/blocks/smelter

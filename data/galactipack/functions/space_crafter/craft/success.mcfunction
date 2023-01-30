@@ -56,7 +56,7 @@ execute store result storage galactipack:main Items.in[{Slot:8b}].Count byte 1 r
 
 
 # we summon the item en set it
-# loot spawn ~ ~1.5 ~ loot galactipack:items/
+# loot spawn ~ ~1.5 ~ loot galactipack:i/
 summon item ~ ~1.5 ~ {Item:{id:"minecraft:stick",Count:1b,tag:{}},Tags:["galactipack.crafting.item_exit"]}
 execute as @e[type=item,tag=galactipack.crafting.item_exit,limit=1] run function galactipack:space_crafter/craft/set_item
 
