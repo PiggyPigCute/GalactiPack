@@ -1,0 +1,22 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"player": {
+					"equipment": {
+						"head": {
+							"items": [
+								"minecraft:iron_helmet"
+							],
+							"nbt": "{galactipack:{mask:{helmet:1b}}}"
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "galactipack:o2/mask/helmet_to_mask"
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:glass"
+						],
+						"nbt": "{galactipack:{mask:{glass:1b}}}"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "galactipack:o2/mask/mask_to_helmet"
+	}
+}

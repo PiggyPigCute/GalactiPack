@@ -29,3 +29,4 @@ function galactipack:base/items
 #define storage galactipack:items
 #define storage galactipack:main
 #define score_holder #craft_detected
+#define score_holder #temp
