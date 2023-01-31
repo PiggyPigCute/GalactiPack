@@ -4,9 +4,8 @@
 		"type": "minecraft:noise",
 		"settings": "galactipack:mars_settings",
 		"biome_source": {
-		"type": "minecraft:fixed",
-		"biome": "galactipack:mars_biome"
+			"type": "minecraft:fixed",
+			"biome": "galactipack:mars_biome"
 		}
 	}
-	}
-	
+}

@@ -1,0 +1,13 @@
+{
+	"criteria": {
+		"mars":{
+			"trigger": "changed_dimension",
+			"conditions": {
+				"to": "galactipack:mars"
+			}
+		}
+	},
+	"rewards": {
+		"function": "galactipack:dimensions/go_to_mars"
+	}
+}
