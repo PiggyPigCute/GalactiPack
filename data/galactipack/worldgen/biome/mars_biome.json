@@ -5,10 +5,10 @@
 	"temperature_modifier": "none",
 	"creature_spawn_probability": 0,
 	"effects": {
-		"sky_color": 393248,
-		"fog_color": 12638463,
-		"water_color": 4159204,
-		"water_fog_color": 329011,
+		"sky_color": 3281153,
+		"fog_color": 15004540,
+		"water_color": 15585590,
+		"water_fog_color": 3613696,
 		"particle": {
 			"options": {
 				"type": "minecraft:ash"
