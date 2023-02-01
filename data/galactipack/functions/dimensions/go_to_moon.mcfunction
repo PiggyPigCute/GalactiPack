@@ -5,7 +5,7 @@
 
 
 
-advancement revoke @s only galactipack:dimensions/moon
+advancement revoke @s only galactipack:dimensions/go_to_moon
 
 scoreboard players set @s galactipack.dimension 1
 

@@ -5,7 +5,7 @@
 
 
 
-advancement revoke @s only galactipack:dimensions/mars
+advancement revoke @s only galactipack:dimensions/go_to_mars
 
 scoreboard players set @s galactipack.dimension 2
 

@@ -13,7 +13,9 @@ loot give @s loot galactipack:i/items/nose_cone
 loot give @s loot galactipack:i/items/red_meteor_iron
 loot give @s loot galactipack:i/items/red_meteor_ingot
 loot give @s loot galactipack:i/items/plates/red_meteor_plate
-loot give @s loot galactipack:i/mask
+#o2
+loot give @s loot galactipack:i/o2/mask
+loot give @s loot galactipack:i/o2/tank/t1
 
 # Blocks
 loot give @s loot galactipack:i/blocks/space_crafter

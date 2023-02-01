@@ -7,8 +7,8 @@
 		},
 		"ops": [
 			{
-				"source": "temp.now",
-				"target": "{}",
+				"source": "temp",
+				"target": "galactipack.o2_tank",
 				"op":"merge"
 			}
 		]
