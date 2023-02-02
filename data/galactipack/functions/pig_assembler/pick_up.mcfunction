@@ -11,4 +11,4 @@ advancement revoke @s only galactipack:pig_assembler/pick_up
 
 clear @s barrel{display:{Name:'{"color":"black","text":"Pig Assembler"}'}} 1
 
-loot give @s loot galactipack:i/block/pig_assembler
+loot give @s loot galactipack:i/blocks/pig_assembler

@@ -5,7 +5,5 @@
 
 
 
-execute unless block ~ ~ ~ smoker run kill @s
-
 
 execute if data block ~ ~ ~ Items[{Slot:1b,id:"minecraft:lava_bucket"}] if data block ~ ~ ~ Items[{Slot:2b}] unless data block ~ ~ ~ Items[{Slot:2b}].tag.galactipack.lpc_tank_7 run function galactipack:lpc/fill/

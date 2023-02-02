@@ -1,21 +1,20 @@
 {
 	"criteria": {
 		"requirement": {
-		"trigger": "minecraft:inventory_changed",
-		"conditions": {
-			"items": [
-			{
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
 				"items": [
-				"minecraft:blast_furnace"
-				],
-				"nbt": "{display:{Name:'{\"color\":\"black\",\"text\":\"Launch Pad Controller\"}'}}"
+					{
+						"items": [
+							"minecraft:blast_furnace"
+						],
+						"nbt": "{display:{Name:'{\"color\":\"black\",\"text\":\"Smelter\"}'}}"
+					}
+				]
 			}
-			]
-		}
 		}
 	},
 	"rewards": {
-		"function" :"galactipack:lpc/pick_up"
+		"function": "galactipack:smelter/pick_up"
 	}
-	}
-	
+}
