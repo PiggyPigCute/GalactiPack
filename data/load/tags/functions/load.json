@@ -2,6 +2,7 @@
 	"values": [
 		"#smithed.custom_block:load",
 		"#smithed.crafter:load",
+		"#smithed.damage:load",
 		"#furnace_nbt_recipes:load",
 		"galactipack:base/load"
 	]
