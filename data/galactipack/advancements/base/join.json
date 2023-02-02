@@ -1,0 +1,10 @@
+{
+	"criteria": {
+		"join":{
+			"trigger": "tick"
+		}
+	},
+	"rewards": {
+		"function": "galactipack:base/join"
+	}
+}
