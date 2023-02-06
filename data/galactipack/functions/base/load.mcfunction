@@ -24,11 +24,3 @@ scoreboard objectives add galactipack.death deathCount
 
 # Items ands blocks
 function galactipack:base/items
-
-
-
-#define storage galactipack:use
-#define storage galactipack:items
-#define storage galactipack:main
-#define score_holder #craft_detected
-#define score_holder #temp
