@@ -39,7 +39,7 @@ data modify storage galactipack:items all.coaldirt set value {  id:"minecraft:ch
 ## /!\ j'ai pas mis de custom model data
 data modify storage galactipack:items all.o2.mask set value {id:"minecraft:iron_helmet",Count:1b,tag:{CustomModelData:0,ctc:{from:"piggypig:galactipack", id:"mask",  traits:{"armor/helmet":1b}},display:{Lore:['{"text":"GalactiPack","color": "blue"}'],  Name:'{"text":"Mask","italic":false,"color":"white"}' },galactipack:{mask:{helmet:1b}},AttributeModifiers:[{Amount:0.0,AttributeName:"minecraft:generic.armor",Name:"minecraft:generic.armor",UUID:[I;407084967,749161718,-1274702522,-1280021732],Slot:"head"}]}}
 data modify storage galactipack:items all.o2.mask_glass set value {id:"minecraft:glass",Count:1b,tag:{CustomModelData:0,ctc:{from:"piggypig:galactipack", id:"mask",  traits:{"armor/helmet":1b}},display:{Lore:['{"text":"GalactiPack","color": "blue"}'],  Name:'{"text":"Mask","italic":false,"color":"white"}' },galactipack:{mask:{glass:1b}},	AttributeModifiers:[{Amount:0.0,AttributeName:"minecraft:generic.armor",Name:"minecraft:generic.armor",UUID:[I;407084967,749161718,-1274702522,-1280021732],Slot:"head"}]}}
-#tank (j'ai moddifié l'ordre habituel pour que ce soit plus simple d'en créer)
+# tank (j'ai moddifié l'ordre habituel pour que ce soit plus simple d'en créer)
 data modify storage galactipack:items all.o2.tank.1 set value {tag:{CustomModelData:0,galactipack:{o2_tank:{max:200,now:100}},display:{Lore:['{"Tier: 1","color": "grey"}','{"text":"GalactiPack","color": "blue"}'],Name:'{"text":"Oxygen Tank","italic":false,"color":"white"}'},ctc:{from:"piggypig:galactipack", id:"o2_tank",  traits:{}}},id:"minecraft:debug_stick",Count:1b}
 
 # Launch Pad Tanks
