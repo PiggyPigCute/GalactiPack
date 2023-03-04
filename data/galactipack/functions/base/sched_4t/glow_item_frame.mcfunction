@@ -14,3 +14,6 @@ execute if entity @s[tag=galactipack.space_crafter] unless block ~ ~ ~ dropper r
 
 # LPC
 execute if entity @s[tag=galactipack.lpc] unless block ~ ~ ~ smoker run function galactipack:lpc/break
+
+# O2 compressor
+execute if entity @s[tag=galactipack.o2_compressor] unless block ~ ~ ~ dropper run kill @s
