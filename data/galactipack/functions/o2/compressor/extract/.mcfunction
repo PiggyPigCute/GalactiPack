@@ -1,4 +1,5 @@
 ## function galactipack:o2/compressor/has_tank
+## function galactipack:o2/compressor/refill
 
 scoreboard players set #temp2 galactipack.data 1
 

@@ -1,4 +1,4 @@
-## function galactipack:o2/compressor/test
+## function galactipack:o2/compressor/has_tank
 
 #o2
 data modify storage galactipack:data temp set from block ~ ~ ~ Items[{Slot:4b}].tag
