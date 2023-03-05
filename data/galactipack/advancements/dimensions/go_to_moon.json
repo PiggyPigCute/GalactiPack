@@ -1,6 +1,6 @@
 {
 	"criteria": {
-		"moon":{
+		"moon": {
 			"trigger": "changed_dimension",
 			"conditions": {
 				"to": "galactipack:moon"

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-		"item": "minecraft:iron_ingot"
+			"item": "minecraft:iron_ingot"
 		},
 		"title": "Piece of Air",
 		"description": "Craft an Oxygen Tank",
@@ -12,15 +12,14 @@
 	"parent": "galactipack:display/craft_mask",
 	"criteria": {
 		"requirement": {
-		"trigger": "minecraft:inventory_changed",
-		"conditions": {
-			"items": [
-				{
-					"nbt": "{galactipack:{oxygen_tank:1b}}"
-				}
-			]
-		}
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"nbt": "{galactipack:{oxygen_tank:1b}}"
+					}
+				]
+			}
 		}
 	}
-	}
-	
+}

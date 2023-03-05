@@ -1,21 +1,20 @@
 {
 	"criteria": {
 		"requirement": {
-		"trigger": "minecraft:inventory_changed",
-		"conditions": {
-			"items": [
-			{
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
 				"items": [
-				"minecraft:smoker"
-				],
-				"nbt": "{display:{Name:'{\"color\":\"black\",\"text\":\"Launch Pad Controller\"}'}}"
+					{
+						"items": [
+							"minecraft:smoker"
+						],
+						"nbt": "{display:{Name:'{\"color\":\"black\",\"text\":\"Launch Pad Controller\"}'}}"
+					}
+				]
 			}
-			]
-		}
 		}
 	},
 	"rewards": {
-		"function" :"galactipack:lpc/pick_up"
+		"function": "galactipack:lpc/pick_up"
 	}
-	}
-	
+}

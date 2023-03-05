@@ -1,8 +1,8 @@
 {
 	"display": {
 		"icon": {
-		"item": "minecraft:command_block",
-		"nbt": "{CustomModelData:8977009}"
+			"item": "minecraft:command_block",
+			"nbt": "{CustomModelData:8977009}"
 		},
 		"title": "Make Meteorite into plates",
 		"description": "Smelt an Meteoric Iron Ingot",
@@ -13,15 +13,14 @@
 	"parent": "galactipack:display/red_meteor_ingot",
 	"criteria": {
 		"requirement": {
-		"trigger": "minecraft:inventory_changed",
-		"conditions": {
-			"items": [
-			{
-				"nbt": "{ctc:{id:\"red_meteor_plate\"}}"
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"nbt": "{ctc:{id:\"red_meteor_plate\"}}"
+					}
+				]
 			}
-			]
-		}
 		}
 	}
-	}
-	
+}

@@ -1,13 +1,13 @@
 {
 	"criteria": {
-	"trigger": {
-		"trigger": "minecraft:recipe_unlocked",
-		"conditions": {
-		"recipe": "galactipack:wrench"
+		"trigger": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "galactipack:wrench"
+			}
 		}
-	}
 	},
 	"rewards": {
-	"function": "galactipack:craft/wrench"
+		"function": "galactipack:craft/wrench"
 	}
 }

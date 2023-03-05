@@ -1,8 +1,8 @@
 {
 	"display": {
 		"icon": {
-		"item": "minecraft:command_block",
-		"nbt": "{CustomModelData:8977004}"
+			"item": "minecraft:command_block",
+			"nbt": "{CustomModelData:8977004}"
 		},
 		"title": "Shiny!",
 		"description": "Press gold in your new Smelter"
@@ -10,15 +10,14 @@
 	"parent": "galactipack:display/smelt_iron",
 	"criteria": {
 		"requirement": {
-		"trigger": "minecraft:inventory_changed",
-		"conditions": {
-			"items": [
-			{
-				"nbt": "{ctc:{id:\"gold_plate\"}}"
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"nbt": "{ctc:{id:\"gold_plate\"}}"
+					}
+				]
 			}
-			]
-		}
 		}
 	}
-	}
-	
+}

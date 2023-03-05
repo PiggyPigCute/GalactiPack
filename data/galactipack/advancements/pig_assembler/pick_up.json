@@ -1,21 +1,20 @@
 {
 	"criteria": {
 		"requirement": {
-		"trigger": "minecraft:inventory_changed",
-		"conditions": {
-			"items": [
-			{
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
 				"items": [
-				"minecraft:barrel"
-				],
-				"nbt": "{display:{Name:'{\"color\":\"black\",\"text\":\"Pig Assembler\"}'}}"
+					{
+						"items": [
+							"minecraft:barrel"
+						],
+						"nbt": "{display:{Name:'{\"color\":\"black\",\"text\":\"Pig Assembler\"}'}}"
+					}
+				]
 			}
-			]
-		}
 		}
 	},
 	"rewards": {
-		"function" :"galactipack:pig_assembler/pick_up"
+		"function": "galactipack:pig_assembler/pick_up"
 	}
-	}
-	
+}

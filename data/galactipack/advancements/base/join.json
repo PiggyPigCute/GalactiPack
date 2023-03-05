@@ -1,6 +1,6 @@
 {
 	"criteria": {
-		"join":{
+		"join": {
 			"trigger": "tick"
 		}
 	},

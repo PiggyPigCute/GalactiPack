@@ -1,8 +1,8 @@
 {
 	"display": {
 		"icon": {
-		"item": "minecraft:command_block",
-		"nbt": "{CustomModelData:8977001}"
+			"item": "minecraft:command_block",
+			"nbt": "{CustomModelData:8977001}"
 		},
 		"title": "You're a space mechanic!",
 		"description": "Use your Wrench on the Space Crafter to build new items",
@@ -13,8 +13,7 @@
 	"parent": "galactipack:display/craft_space_crafter",
 	"criteria": {
 		"requirement": {
-		"trigger": "minecraft:impossible"
+			"trigger": "minecraft:impossible"
 		}
 	}
-	}
-	
+}

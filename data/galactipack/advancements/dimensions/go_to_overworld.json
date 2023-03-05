@@ -1,6 +1,6 @@
 {
 	"criteria": {
-		"overworld":{
+		"overworld": {
 			"trigger": "changed_dimension",
 			"conditions": {
 				"to": "overworld"

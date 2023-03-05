@@ -1,8 +1,8 @@
 {
 	"display": {
 		"icon": {
-		"item": "minecraft:glow_item_frame",
-		"nbt": "{CustomModelData:8977004}"
+			"item": "minecraft:glow_item_frame",
+			"nbt": "{CustomModelData:8977004}"
 		},
 		"title": "Get your Launch ready",
 		"description": "Craft a Launch Pad Controller with your new plates",
@@ -13,15 +13,14 @@
 	"parent": "galactipack:display/smelt_gold",
 	"criteria": {
 		"requirement": {
-		"trigger": "minecraft:inventory_changed",
-		"conditions": {
-			"items": [
-				{
-					"nbt": "{galactipack:{lpc:1b}}"
-				}
-			]
-		}
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"nbt": "{galactipack:{lpc:1b}}"
+					}
+				]
+			}
 		}
 	}
-	}
-	
+}

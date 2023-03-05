@@ -1,21 +1,20 @@
 {
 	"criteria": {
 		"requirement": {
-		"trigger": "minecraft:inventory_changed",
-		"conditions": {
-			"items": [
-			{
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
 				"items": [
-				"minecraft:dropper"
-				],
-				"nbt": "{display:{Name:'{\"color\":\"black\",\"text\":\"Space Crafter\"}'}}"
+					{
+						"items": [
+							"minecraft:dropper"
+						],
+						"nbt": "{display:{Name:'{\"color\":\"black\",\"text\":\"Space Crafter\"}'}}"
+					}
+				]
 			}
-			]
-		}
 		}
 	},
 	"rewards": {
-		"function" :"galactipack:space_crafter/pick_up"
+		"function": "galactipack:space_crafter/pick_up"
 	}
-	}
-	
+}

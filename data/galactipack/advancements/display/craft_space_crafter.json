@@ -1,8 +1,8 @@
 {
 	"display": {
 		"icon": {
-		"item": "minecraft:glow_item_frame",
-		"nbt": "{CustomModelData:8977001}"
+			"item": "minecraft:glow_item_frame",
+			"nbt": "{CustomModelData:8977001}"
 		},
 		"title": "Once upon a time...",
 		"description": "Start your space adventure making a Space Crafter"
@@ -10,15 +10,14 @@
 	"parent": "galactipack:display/root",
 	"criteria": {
 		"requirement": {
-		"trigger": "minecraft:inventory_changed",
-		"conditions": {
-			"items": [
-			{
-				"nbt": "{galactipack:{space_crafter:1b}}"
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"nbt": "{galactipack:{space_crafter:1b}}"
+					}
+				]
 			}
-			]
-		}
 		}
 	}
-	}
-	
+}

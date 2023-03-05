@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-		"item": "minecraft:glass"
+			"item": "minecraft:glass"
 		},
 		"title": "Space Scuba",
 		"description": "Craft an Oxygen Mask",
@@ -12,15 +12,14 @@
 	"parent": "galactipack:display/root",
 	"criteria": {
 		"requirement": {
-		"trigger": "minecraft:inventory_changed",
-		"conditions": {
-			"items": [
-				{
-					"nbt": "{galactipack:{oxygen_mask:1b}}"
-				}
-			]
-		}
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"nbt": "{galactipack:{oxygen_mask:1b}}"
+					}
+				]
+			}
 		}
 	}
-	}
-	
+}

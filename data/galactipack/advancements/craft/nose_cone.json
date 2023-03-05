@@ -1,13 +1,13 @@
 {
 	"criteria": {
-	"trigger": {
-		"trigger": "minecraft:recipe_unlocked",
-		"conditions": {
-		"recipe": "galactipack:nose_cone"
+		"trigger": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "galactipack:nose_cone"
+			}
 		}
-	}
 	},
 	"rewards": {
-	"function": "galactipack:craft/nose_cone"
+		"function": "galactipack:craft/nose_cone"
 	}
 }

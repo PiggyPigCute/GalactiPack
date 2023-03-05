@@ -1,26 +1,26 @@
 {
 	"display": {
-	"icon": {
-		"item": "minecraft:glow_item_frame",
-		"nbt": "{CustomModelData:8977401}"
-	},
-	"title": "Uh, that's Huge",
-	"description": "Craft a Rocket in a Pig Assembler",
-	"show_toast": true,
-	"announce_to_chat": true,
-	"hidden": false
+		"icon": {
+			"item": "minecraft:glow_item_frame",
+			"nbt": "{CustomModelData:8977401}"
+		},
+		"title": "Uh, that's Huge",
+		"description": "Craft a Rocket in a Pig Assembler",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
 	},
 	"parent": "galactipack:display/craft_pig_assembler",
 	"criteria": {
-	"requirement": {
-		"trigger": "minecraft:inventory_changed",
-		"conditions": {
-		"items": [
-			{
-			"nbt": "{galactipack:{rocket:1b}}"
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"nbt": "{galactipack:{rocket:1b}}"
+					}
+				]
 			}
-		]
 		}
-	}
 	}
 }

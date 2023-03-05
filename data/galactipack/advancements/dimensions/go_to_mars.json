@@ -1,6 +1,6 @@
 {
 	"criteria": {
-		"mars":{
+		"mars": {
 			"trigger": "changed_dimension",
 			"conditions": {
 				"to": "galactipack:mars"

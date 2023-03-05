@@ -1,8 +1,8 @@
 {
 	"display": {
 		"icon": {
-		"item": "minecraft:command_block",
-		"nbt": "{CustomModelData:8977007}"
+			"item": "minecraft:command_block",
+			"nbt": "{CustomModelData:8977007}"
 		},
 		"title": "Meteorologic",
 		"description": "Mine a Meteorite",
@@ -13,15 +13,14 @@
 	"parent": "galactipack:display/go_to_the_moon",
 	"criteria": {
 		"requirement": {
-		"trigger": "minecraft:inventory_changed",
-		"conditions": {
-			"items": [
-			{
-				"nbt": "{ctc:{id:\"red_meteor_iron\"}}"
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"nbt": "{ctc:{id:\"red_meteor_iron\"}}"
+					}
+				]
 			}
-			]
-		}
 		}
 	}
-	}
-	
+}
