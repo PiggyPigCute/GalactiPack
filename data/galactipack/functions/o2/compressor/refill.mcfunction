@@ -13,3 +13,5 @@ execute store result storage galactipack:data temp.Damage int 1 run scoreboard p
 #put back in the block
 data modify block ~ ~ ~ Items[{Slot:4b}].tag set from storage galactipack:data temp
 scoreboard players remove @s galactipack.data 30
+
+execute if score #temp galactipack.data = #temp2 galactipack.data if block ~ ~-1 ~ hopper run function galactipack:o2/compressor/extract/
