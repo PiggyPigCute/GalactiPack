@@ -11,7 +11,6 @@ scoreboard players operation #temp5 galactipack.o2 = #temp3 galactipack.o2
 scoreboard players operation #temp3 galactipack.o2 -= #temp1 galactipack.o2
 scoreboard players operation #temp3 galactipack.o2 *= #59 galactipack.data
 scoreboard players operation #temp3 galactipack.o2 /= #temp5 galactipack.o2
-title @a title {"score":{"name": "#temp3","objective": "galactipack.o2"}}
 execute store result storage galactipack:data temp int 1 run scoreboard players get #temp3 galactipack.o2
 item modify entity @s inventory.7 galactipack:set_dura
 
