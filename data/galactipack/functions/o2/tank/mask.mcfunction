@@ -1,3 +1,4 @@
+## function galactipack:o2/tank/in_space
 
 scoreboard players set #max galactipack.o2 0
 scoreboard players set @s galactipack.o2 0

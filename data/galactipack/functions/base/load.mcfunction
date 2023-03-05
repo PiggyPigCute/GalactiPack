@@ -12,7 +12,7 @@ scoreboard players set #galactipack load.status 1000
 # Schedules
 schedule function galactipack:base/sched_4t/ 2t replace
 schedule function galactipack:base/sched_1s/ 5t replace
-schedule function galactipack:base/sched_120s 1s replace
+#schedule function galactipack:base/sched_120s 1s replace
 
 
 # Scores
