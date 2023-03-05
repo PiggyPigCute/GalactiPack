@@ -12,4 +12,4 @@ scoreboard players operation #temp1 galactipack.data /= #temp2 galactipack.data
 execute store result storage galactipack:data temp.Damage int 1 run scoreboard players get #temp1 galactipack.data
 #put back in the block
 data modify block ~ ~ ~ Items[{Slot:4b}].tag set from storage galactipack:data temp
-scoreboard players set @s galactipack.data 0
+scoreboard players remove @s galactipack.data 30

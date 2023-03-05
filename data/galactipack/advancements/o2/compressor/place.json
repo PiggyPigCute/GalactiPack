@@ -13,6 +13,6 @@
 		}
 	},
 	"rewards": {
-		"function": "galactipack:o2/compressor/place"
+		"function": "galactipack:o2/compressor/place/place"
 	}
 }
