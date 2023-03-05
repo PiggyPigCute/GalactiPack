@@ -16,7 +16,7 @@
 							},
 							"ops": [
 								{
-									"source": "all.rocket_t1.tag",
+									"source": "all.rocket.t1.tag",
 									"target": "{}",
 									"op": "merge"
 								}
