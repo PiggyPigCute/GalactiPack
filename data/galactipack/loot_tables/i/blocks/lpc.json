@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:glow_item_frame",
+					"name": "minecraft:barrel",
 					"functions": [
 						{
 							"function": "minecraft:copy_nbt",

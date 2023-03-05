@@ -5,14 +5,14 @@
 			"conditions": {
 				"item": {
 					"items": [
-						"minecraft:glow_item_frame"
+						"minecraft:barrel"
 					],
-					"nbt": "{galactipack:{lpc:1b}}"
+					"nbt": "{display:{Name:'{\"text\":\"Launch Pad Controller\",\"italic\": false,\"color\": \"white\"}'}}"
 				}
 			}
 		}
 	},
 	"rewards": {
-		"function": "galactipack:lpc/place/"
+		"function": "galactipack:lpc/place/place"
 	}
 }
