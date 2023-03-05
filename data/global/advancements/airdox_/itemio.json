@@ -1,0 +1,17 @@
+{
+	"display": {
+		"title": "ItemIO",
+		"description": "v0.2.0",
+		"icon": {
+			"item": "minecraft:hopper"
+		},
+		"announce_to_chat": false,
+		"show_toast": false
+	},
+	"parent": "global:airdox_/root",
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

@@ -1,0 +1,10 @@
+{
+  "values": [
+    {
+      "id": "#itemio:load/dependencies",
+      "required": false
+    },
+    "#itemio:load/enumerate",
+    "#itemio:load/resolve"
+  ]
+}

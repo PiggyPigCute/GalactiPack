@@ -4,6 +4,7 @@
 		"#smithed.crafter:load",
 		"#smithed.damage:load",
 		"#furnace_nbt_recipes:load",
+		"#itemio:load",
 		"galactipack:base/load"
 	]
 }

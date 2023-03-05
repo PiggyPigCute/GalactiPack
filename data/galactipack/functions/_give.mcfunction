@@ -26,4 +26,3 @@ loot give @s loot galactipack:i/blocks/lpc
 # Specials
 loot give @s loot galactipack:i/rocket/t1
 loot give @s loot galactipack:i/coaldirt
-
