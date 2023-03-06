@@ -1,0 +1,28 @@
+dimensions:
+	mars:
+		minerais
+		météors
+	Asteroids
+	venus
+	Jupiter
+	Saturn
+	Uranus
+	Neptune
+	Pluto
+	Sun
+fusées:
+	t2
+	t3
+	t4
+o2:
+	o2 dilator
+	o2 cleaner
+	o2 collector (le passif qui est lent dans l'espace)
+	o2 generator (celui avec les arbustes)
+	o2 spreader (celui pour remplire une pièce d'o2)
+	tanks:
+		t2-t?
+		creative
+
+bugs:
+	smelting custom stuff
