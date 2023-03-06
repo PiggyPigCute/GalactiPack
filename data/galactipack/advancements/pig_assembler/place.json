@@ -5,14 +5,14 @@
 			"conditions": {
 				"item": {
 					"items": [
-						"minecraft:glow_item_frame"
+						"barrel"
 					],
-					"nbt": "{galactipack:{pig_assembler:1b}}"
+					"nbt": "{display:{Name:'{\"text\":\"Pig Assembler\",\"italic\": false,\"color\": \"white\"}'}}"
 				}
 			}
 		}
 	},
 	"rewards": {
-		"function": "galactipack:pig_assembler/place"
+		"function": "galactipack:pig_assembler/place/place"
 	}
 }
