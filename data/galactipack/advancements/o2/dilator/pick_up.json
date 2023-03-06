@@ -1,0 +1,20 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:dropper"
+						],
+						"nbt": "{display:{Name:'{\"italic\":false,\"color\":\"black\",\"text\":\"Oxygen Dilator\"}'}}"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "galactipack:o2/dilator/pick_up"
+	}
+}

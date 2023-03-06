@@ -1,3 +1,3 @@
-## function galactipack:o2/compressor/main
+## function galactipack:base/gui/
 
 data modify block ~ ~ ~ Items[0].Slot set value 4b
