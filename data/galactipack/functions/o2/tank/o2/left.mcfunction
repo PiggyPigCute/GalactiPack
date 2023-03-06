@@ -16,3 +16,4 @@ execute store result storage galactipack:data temp int 1 run scoreboard players 
 item modify entity @s inventory.7 galactipack:set_dura
 
 scoreboard players set #temp galactipack.data 1
+effect give @s water_breathing 2 0 true
