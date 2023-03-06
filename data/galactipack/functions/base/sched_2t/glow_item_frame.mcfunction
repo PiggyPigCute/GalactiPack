@@ -2,6 +2,8 @@
 # Schedule 2t as every blocks (← ./)
 
 
+# Dropper gui
+execute if entity @s[tag=galactipack.gui] unless block ~ ~ ~ dropper run function galactipack:base/gui/re_gui/no_gui
 
 # Smelter
 execute if entity @s[tag=galactipack.smelter] unless block ~ ~ ~ blast_furnace run kill @s

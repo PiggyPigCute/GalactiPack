@@ -4,7 +4,7 @@
 
 
 # Dropper gui
-execute at @s[tag=galactipack.gui] run function galactipack:base/gui/
+execute if entity @s[tag=galactipack.gui] run function galactipack:base/gui/
 
 # Smelter
 execute if entity @s[tag=galactipack.smelter] run function galactipack:smelter/sched

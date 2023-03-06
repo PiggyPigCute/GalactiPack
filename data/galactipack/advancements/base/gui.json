@@ -1,0 +1,20 @@
+{
+	"criteria": {
+		"gui": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"light_gray_stained_glass_pane"
+						],
+						"nbt": "{galactipack:{gui:1b}}"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "galactipack:base/gui/re_gui/clear"
+	}
+}
