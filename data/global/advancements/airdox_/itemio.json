@@ -1,7 +1,7 @@
 {
 	"display": {
 		"title": "ItemIO",
-		"description": "v0.2.0",
+		"description": "v0.3.0",
 		"icon": {
 			"item": "minecraft:hopper"
 		},
