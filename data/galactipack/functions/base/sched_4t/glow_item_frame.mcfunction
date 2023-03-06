@@ -17,3 +17,9 @@ execute if entity @s[tag=galactipack.lpc] unless block ~ ~ ~ smoker run function
 
 # O2 compressor
 execute if entity @s[tag=galactipack.o2_compressor] unless block ~ ~ ~ dropper run kill @s
+
+# O2 Dilator
+execute if entity @s[tag=galactipack.o2_dilator] unless block ~ ~ ~ dropper run kill @s
+
+# O2 Cleaner
+execute if entity @s[tag=galactipack.o2_cleaner] unless block ~ ~ ~ dropper run kill @s

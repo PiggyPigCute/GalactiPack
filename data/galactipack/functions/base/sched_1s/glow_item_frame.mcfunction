@@ -17,3 +17,6 @@ execute if entity @s[tag=galactipack.o2_compressor] run function galactipack:o2/
 
 # O2 Dilator
 execute if entity @s[tag=galactipack.o2_dilator] if data block ~ ~ ~ Items[{Slot:4b}].tag.galactipack.o2_tank run function galactipack:o2/dilator/
+
+# O2 Cleaner
+execute if entity @s[tag=galactipack.o2_cleaner] if data block ~ ~ ~ Items[{Slot:4b}].tag.galactipack.o2_tank run function galactipack:o2/cleaner/

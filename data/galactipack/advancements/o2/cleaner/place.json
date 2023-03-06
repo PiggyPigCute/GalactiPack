@@ -1,0 +1,18 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"item": {
+					"items": [
+						"barrel"
+					],
+					"nbt": "{display:{Name:'{\"text\":\"Oxygen Cleaner\",\"italic\": false,\"color\": \"white\"}'}}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "galactipack:o2/cleaner/place/place"
+	}
+}
