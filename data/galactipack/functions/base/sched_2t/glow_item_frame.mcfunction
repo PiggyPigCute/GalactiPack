@@ -25,3 +25,6 @@ execute if entity @s[tag=galactipack.o2_dilator] unless block ~ ~ ~ dropper run 
 
 # O2 Cleaner
 execute if entity @s[tag=galactipack.o2_cleaner] unless block ~ ~ ~ dropper run kill @s
+
+# O2 Spreader
+execute if entity @s[tag=galactipack.o2_spreader] unless block ~ ~ ~ dropper run function galactipack:o2/spreader/place/remove

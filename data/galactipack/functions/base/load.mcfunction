@@ -12,7 +12,7 @@ scoreboard players set #galactipack load.status 1000
 # Schedules
 schedule function galactipack:base/sched_2t/ 2t replace
 schedule function galactipack:base/sched_1s/ 5t replace
-schedule function galactipack:base/sched_120s 1s replace
+schedule function galactipack:base/sched_120s 120s replace
 
 
 # Scores
@@ -22,6 +22,10 @@ scoreboard objectives add galactipack.o2 dummy
 scoreboard objectives add galactipack.dimension dummy
 scoreboard objectives add galactipack.death deathCount
 
+
+tag Onyx_T74 add galactipack.dev
+tag PiggyPig_Cute add galactipack.dev
+#define entity @a[tag=galactipack.dev]
 
 # Items ands blocks
 function galactipack:base/items

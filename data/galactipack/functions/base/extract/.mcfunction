@@ -2,6 +2,8 @@
 ## function galactipack:o2/compressor/refill
 ## function galactipack:o2/dilator/
 ## function galactipack:o2/cleaner/clean
+## function galactipack:o2/spreader/work/tank
+## function galactipack:o2/spreader/work/give_o2
 
 scoreboard players set #temp2 galactipack.data 1
 

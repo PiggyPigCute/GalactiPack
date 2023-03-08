@@ -1,3 +1,4 @@
+## function galactipack:base/sched_1s/player
 
 # Schedule 1s, as players (← ./)
 
