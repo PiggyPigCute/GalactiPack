@@ -12,4 +12,6 @@ execute store result score #temp4 galactipack.o2 run data get storage galactipac
 scoreboard players operation #max galactipack.o2 = #temp3 galactipack.o2
 scoreboard players operation #max galactipack.o2 += #temp4 galactipack.o2
 
-execute unless entity @e[type=marker,tag=galactipack.o2,tag=galactipack.o2.true,limit=1,distance=..1,sort=nearest] run function galactipack:o2/tank/cant_breath
+execute unless score #temp1 galactipack.o2 matches 0 run function galactipack:o2/tank/o2/left
+execute if score #temp1 galactipack.o2 matches 0 unless score #temp2 galactipack.o2 matches 0 run function galactipack:o2/tank/o2/right
+execute if score @s galactipack.o2 matches 0 run scoreboard players set #temp galactipack.data 0
