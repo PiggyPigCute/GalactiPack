@@ -6,6 +6,60 @@
 			"predicate": {
 				"dimension": "galactipack:moon"
 			}
+		},
+		{
+			"condition": "minecraft:location_check",
+			"predicate": {
+				"dimension": "galactipack:mars"
+			}
+		},
+		{
+			"condition": "minecraft:location_check",
+			"predicate": {
+				"dimension": "galactipack:moon"
+			}
+		},
+		{
+			"condition": "minecraft:location_check",
+			"predicate": {
+				"dimension": "galactipack:moon"
+			}
+		},
+		{
+			"condition": "minecraft:location_check",
+			"predicate": {
+				"dimension": "galactipack:moon"
+			}
+		},
+		{
+			"condition": "minecraft:location_check",
+			"predicate": {
+				"dimension": "galactipack:moon"
+			}
+		},
+		{
+			"condition": "minecraft:location_check",
+			"predicate": {
+				"dimension": "galactipack:moon"
+			}
+		},
+		{
+			"condition": "minecraft:location_check",
+			"predicate": {
+				"dimension": "galactipack:moon"
+			}
+		},
+		{
+			"condition": "minecraft:location_check",
+			"predicate": {
+				"dimension": "galactipack:moon"
+			}
+		},
+		{
+			"condition": "minecraft:location_check",
+			"predicate": {
+				"dimension": "galactipack:moon"
+			}
 		}
 	]
 }

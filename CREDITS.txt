@@ -6,6 +6,8 @@
 
 Libraries:
  → Stoupy51 : Furnace NBT Recipes
+ → Airdox_ : ItemIO
+ → Smithed : Damage, Custom block, Custom crafter
 
 
 Other Thanks:
