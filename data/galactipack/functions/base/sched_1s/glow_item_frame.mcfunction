@@ -12,9 +12,6 @@ execute if entity @s[tag=galactipack.smelter] run function galactipack:smelter/s
 # LPC
 execute if entity @s[tag=galactipack.lpc] run function galactipack:lpc/sched
 
-# O2 Compressor
-execute if entity @s[tag=galactipack.o2_compressor] run function galactipack:o2/compressor/
-
 # O2 Dilator
 execute if entity @s[tag=galactipack.o2_dilator] if data block ~ ~ ~ Items[{Slot:4b}].tag.galactipack.o2_tank run function galactipack:o2/dilator/
 
@@ -23,3 +20,9 @@ execute if entity @s[tag=galactipack.o2_cleaner] if data block ~ ~ ~ Items[{Slot
 
 # O2 Spreader
 execute if entity @s[tag=galactipack.o2_spreader] run function galactipack:o2/spreader/
+
+# O2 Collector
+execute if entity @s[tag=galactipack.o2_collector] run function galactipack:o2/collector/
+
+# O2 Compressor
+execute if entity @s[tag=galactipack.o2_compressor] run function galactipack:o2/compressor/
