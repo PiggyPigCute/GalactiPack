@@ -2,6 +2,7 @@
 # COnvention, c'est écrit dans le nom du tag en plus mdr
 tag _PiggyPig_ add convention.debug
 tag Rignchen add convention.debug
+tag Onyx_T74 add convention.debug
 
 # Modifie la version, je ne la connais pas :)
 tellraw @a[tag=convention.debug] {"text":"[Loaded GalactiPack v1.0.0]","italic":false,"color":"green"}
@@ -18,14 +19,11 @@ schedule function galactipack:base/sched_120s 120s replace
 # Scores
 scoreboard objectives add galactipack.data dummy
 scoreboard players set #59 galactipack.data 59
+scoreboard players set #30 galactipack.data 30
 scoreboard objectives add galactipack.o2 dummy
 scoreboard objectives add galactipack.dimension dummy
 scoreboard objectives add galactipack.death deathCount
 
-
-tag Onyx_T74 add galactipack.dev
-tag PiggyPig_Cute add galactipack.dev
-#define entity @a[tag=galactipack.dev]
 
 # Items ands blocks
 function galactipack:base/items
