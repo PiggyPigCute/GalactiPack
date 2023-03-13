@@ -18,6 +18,9 @@ execute if entity @s[tag=galactipack.o2_dilator] if data block ~ ~ ~ Items[{Slot
 # O2 Cleaner
 execute if entity @s[tag=galactipack.o2_cleaner] if data block ~ ~ ~ Items[{Slot:4b}].tag.galactipack.o2_tank run function galactipack:o2/cleaner/
 
+# Creative O2 Filler
+execute if entity @s[tag=galactipack.o2_creative] if data block ~ ~ ~ Items[{Slot:4b}].tag.galactipack.o2_tank run function galactipack:o2/creative/
+
 # O2 Spreader
 execute if entity @s[tag=galactipack.o2_spreader] run function galactipack:o2/spreader/
 
