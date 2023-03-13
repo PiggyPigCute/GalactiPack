@@ -17,6 +17,9 @@ execute if entity @s[tag=galactipack.pig_assembler] unless block ~ ~ ~ barrel ru
 # LPC
 execute if entity @s[tag=galactipack.lpc] unless block ~ ~ ~ smoker run function galactipack:lpc/place/remove
 
+# Meteor Shield
+execute if entity @s[tag=galactipack.meteor_shield] unless block ~ ~ ~ chiseled_deepslate run function galactipack:meteor_shield/place/remove
+
 # O2 Dilator
 execute if entity @s[tag=galactipack.o2_dilator] unless block ~ ~ ~ dropper run function galactipack:o2/dilator/place/remove
 
