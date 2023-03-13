@@ -29,5 +29,8 @@ execute if entity @s[tag=galactipack.o2_spreader] unless block ~ ~ ~ dropper run
 # O2 Collector
 execute if entity @s[tag=galactipack.o2_collector] unless block ~ ~ ~ chiseled_deepslate run function galactipack:o2/collector/place/remove
 
+# O2 Generator
+execute if entity @s[tag=galactipack.o2_generator] unless block ~ ~ ~ dropper run function galactipack:o2/generator/place/remove
+
 # O2 Compressor
 execute if entity @s[tag=galactipack.o2_compressor] unless block ~ ~ ~ dropper run function galactipack:o2/compressor/place/remove

@@ -24,5 +24,8 @@ execute if entity @s[tag=galactipack.o2_spreader] run function galactipack:o2/sp
 # O2 Collector
 execute if entity @s[tag=galactipack.o2_collector] run function galactipack:o2/collector/
 
+# O2 Generator
+execute if entity @s[tag=galactipack.o2_generator] run function galactipack:o2/generator/
+
 # O2 Compressor
 execute if entity @s[tag=galactipack.o2_compressor] run function galactipack:o2/compressor/

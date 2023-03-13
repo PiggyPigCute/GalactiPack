@@ -15,11 +15,10 @@ fusées:
 	t3
 	t4
 o2:
-	o2 collector (le passif qui est lent dans l'espace)
-	o2 generator (celui avec les arbustes)
 	tanks:
 		t2-t?
 		creative
 
 bugs:
 	smelting custom stuff
+	rocket don't place
