@@ -14,4 +14,4 @@ clear @s player_head{SkullOwner:{Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6e
 loot give @s loot galactipack:i/items/red_meteor_iron
 
 # may give a sceond  Red Meteoric Iron  (10% chance)
-execute if predicate galactipack:chance_10pc run loot give @s loot galactipack:i/items/red_meteor_iron
+execute if predicate galactipack:chance/10pc run loot give @s loot galactipack:i/items/red_meteor_iron
