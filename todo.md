@@ -17,7 +17,7 @@ fusées:
 o2:
 	tanks:
 		creative
-	disable outdoor farms in space
+~~	disable outdoor farms in space~~
 	farm machine
 
 bugs:

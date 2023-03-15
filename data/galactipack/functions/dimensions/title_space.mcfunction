@@ -1,5 +1,7 @@
+## function galactipack:dimensions/go_to_mars
+## function galactipack:dimensions/go_to_moon
 
-# function that add space tags for O₂ GUI  (← ./go_to_...)
+# function that add space tags for O₂ GUI
 
 # as-at: player
 

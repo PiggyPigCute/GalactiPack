@@ -1,0 +1,31 @@
+{
+	"criteria": {
+		"hoe":{
+			"trigger": "item_used_on_block",
+			"conditions": {
+				"location": {
+					"block": {
+						"blocks": [
+							"farmland"
+						]
+					}
+				}
+			}
+		},
+		"block":{
+			"trigger": "placed_block",
+			"conditions": {
+				"block": "farmland"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"hoe",
+			"block"
+		]
+	],
+	"rewards": {
+		"function": "galactipack:farm/no_farm"
+	}
+}
