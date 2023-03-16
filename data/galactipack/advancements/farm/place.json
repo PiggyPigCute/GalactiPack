@@ -1,0 +1,18 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"item": {
+					"items": [
+						"barrel"
+					],
+					"nbt": "{display:{Name:'{\"text\":\"Space Farm\",\"italic\": false,\"color\": \"white\"}'}}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "galactipack:farm/place/place"
+	}
+}

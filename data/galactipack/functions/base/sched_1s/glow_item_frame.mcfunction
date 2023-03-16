@@ -12,6 +12,9 @@ execute if entity @s[tag=galactipack.smelter] run function galactipack:smelter/s
 # LPC
 execute if entity @s[tag=galactipack.lpc] run function galactipack:lpc/sched
 
+# Space Farm
+execute if entity @s[tag=galactipack.farm] run function galactipack:farm/
+
 # O2 Dilator
 execute if entity @s[tag=galactipack.o2_dilator] if data block ~ ~ ~ Items[{Slot:4b}].tag.galactipack.o2_tank run function galactipack:o2/dilator/
 
