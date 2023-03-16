@@ -23,3 +23,10 @@ o2:
 bugs:
 	smelting custom stuff
 	rocket don't place
+
+update to 1.19.4:
+	execute summon (not with items)
+	block_display
+	update libraries
+
+plugin compatibility

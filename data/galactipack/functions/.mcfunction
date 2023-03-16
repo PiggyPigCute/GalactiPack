@@ -11,4 +11,6 @@ tellraw @s {"text":"You are using the Galactipack datapack","color":"yellow","cl
 #define storage galactipack:data Storage temporaire à vider après utilisation
 #define score_holder #craft_detected
 #define score_holder #temp
+#define score_holder #random
+#define score_holder #big_prime
 #define entity @a[tag=convention.debug]
