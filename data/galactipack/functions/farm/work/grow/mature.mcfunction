@@ -1,8 +1,12 @@
 ## function galactipack:farm/work/grow/
 
-scoreboard players set #temp1 galactipack.data 2
+scoreboard players set #temp galactipack.data 0
 data modify storage galactipack:data temp set from block ~ ~ ~ Items[{Slot:3b}]
-execute if data block ~ ~ ~ Items[{Slot:8b}] store success score #temp1 galactipack.data run data modify storage galactipack:data temp.id set from block ~ ~ ~ Items[{Slot:8b}].id
+
+execute if score #temp galactipack.data matches 0 if data storage galactipack:data {temp:{id:"minecraft:potato"}} run function galactipack:farm/work/grow/is_seed
+execute if score #temp galactipack.data matches 0 if data storage galactipack:data {temp:{id:"minecraft:wheat_seeds"}} run function galactipack:farm/work/grow/need_seed
+execute if score #temp galactipack.data matches 0 if data storage galactipack:data {temp:{id:"minecraft:carrot"}} run function galactipack:farm/work/grow/is_seed
+execute if score #temp galactipack.data matches 0 if data storage galactipack:data {temp:{id:"minecraft:beetroot_seeds"}} run function galactipack:farm/work/grow/need_seed
 
 execute unless score #temp1 galactipack.data matches 1 run function galactipack:farm/work/grow/grow
 
