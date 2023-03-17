@@ -1,8 +1,8 @@
 ## function galactipack:farm/work/grow/grow
 
 scoreboard players set #temp2 galactipack.data 2
-execute unless data block ~ ~ ~ Items[{Slot:5b}] run scoreboard players set #temp2 galactipack.data 1
-execute if score #temp2 galactipack.data matches 2 if data block ~ ~ ~ Items[{Slot:5b,id:"minecraft:wheat"}] run scoreboard players set #temp2 galactipack.data 0
+execute unless data storage galactipack:data Items[{Slot:5b}] run scoreboard players set #temp2 galactipack.data 1
+execute if score #temp2 galactipack.data matches 2 if data storage galactipack:data Items[{Slot:5b,id:"minecraft:wheat"}] run scoreboard players set #temp2 galactipack.data 0
 
 #temp1 =...
 #	0=same stuff

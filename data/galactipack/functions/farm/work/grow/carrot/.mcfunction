@@ -14,5 +14,5 @@ execute unless score #temp galactipack.data matches 0 run function galactipack:f
 
 scoreboard players set #temp1 galactipack.data 1
 
-execute store result block ~ ~ ~ Items[{Slot:3b}].Count byte 0.9999 run data get block ~ ~ ~ Items[{Slot:3b}].Count
+execute store result storage galactipack:data Items[{Slot:3b}].Count byte 0.9999 run data get storage galactipack:data Items[{Slot:3b}].Count
 scoreboard players set @s galactipack.data 0
