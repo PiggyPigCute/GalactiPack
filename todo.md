@@ -18,7 +18,7 @@ o2:
 	tanks:
 		creative
 ~~	disable outdoor farms in space~~
-	farm machine
+~~	farm machine~~
 
 bugs:
 	smelting custom stuff
@@ -27,6 +27,7 @@ bugs:
 update to 1.19.4:
 	execute summon (not with items)
 	block_display
+	damage @s 1 minecraft:drown
 	update libraries
 
 plugin compatibility

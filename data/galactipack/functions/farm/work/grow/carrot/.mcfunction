@@ -7,7 +7,7 @@
 
 scoreboard players operation #random galactipack.data *= #big_prime galactipack.data
 scoreboard players operation #temp galactipack.data = #random galactipack.data
-scoreboard players operation #temp galactipack.data %= #5 galactipack.data
+scoreboard players operation #temp galactipack.data %= #3 galactipack.data
 scoreboard players add #temp galactipack.data 1
 
 execute unless score #temp galactipack.data matches 0 run function galactipack:farm/work/grow/carrot/plant_carrot
