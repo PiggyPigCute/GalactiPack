@@ -1,4 +1,4 @@
-## function galactipack:base/sched_1s/glow_item_frame
+## function galactipack:base/sched_1s/item_display
 
 execute store result score #temp galactipack.data run data get block ~ ~ ~ Items[{Slot:4b}].tag.galactipack.o2_tank.dilated
 

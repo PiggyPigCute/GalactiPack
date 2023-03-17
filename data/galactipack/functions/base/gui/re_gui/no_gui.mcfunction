@@ -1,4 +1,4 @@
-## function galactipack:base/sched_2t/glow_item_frame
+## function galactipack:base/sched_2t/item_display
 ## function galactipack:base/gui/re_gui/
 ## function galactipack:farm/place/remove
 ## function galactipack:farm/gui/7_gui/

@@ -1,4 +1,4 @@
-## function galactipack:base/sched_1s/glow_item_frame
+## function galactipack:base/sched_1s/item_display
 
 data modify storage galactipack:data Items set from block ~ ~ ~ Items
 

@@ -25,9 +25,9 @@ bugs:
 	rocket don't place
 
 update to 1.19.4:
-	execute summon (not with items)
-	block_display
-	damage @s 1 minecraft:drown
+~~	execute summon (not with items)~~
+~~	block_display~~
+~~	/damage~~
 	update libraries
 
 plugin compatibility

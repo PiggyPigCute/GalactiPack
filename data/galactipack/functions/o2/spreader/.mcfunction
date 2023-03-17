@@ -1,4 +1,4 @@
-## function galactipack:base/sched_1s/glow_item_frame
+## function galactipack:base/sched_1s/item_display
 
 execute if block ~ ~ ~ dropper[triggered=true] unless entity @s[tag=galactipack.triggered] run function galactipack:o2/spreader/redstone
 execute if entity @s[tag=galactipack.triggered] if block ~ ~ ~ dropper[triggered=false] run tag @s remove galactipack.triggered
