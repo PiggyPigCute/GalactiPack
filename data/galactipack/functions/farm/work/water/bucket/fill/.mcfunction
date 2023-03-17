@@ -1,7 +1,7 @@
 ## function galactipack:farm/work/water/bucket/
 
-execute store result score #temp galactipack.data run data get block ~ ~ ~ Items[{Slot:6b}].Count
-execute store result score #temp1 galactipack.data run data get block ~ ~ ~ Items[{Slot:8b}].Count
+execute store result score #temp galactipack.data run data get storage galactipack:data Items[{Slot:6b}].Count
+execute store result score #temp1 galactipack.data run data get storage galactipack:data Items[{Slot:8b}].Count
 
 scoreboard players operation #temp galactipack.data += #temp1 galactipack.data
 
