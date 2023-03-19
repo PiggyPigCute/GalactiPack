@@ -35,6 +35,7 @@ print("advancements:" + str(surch(["json"],"data/galactipack/advancements")) + "
 print("functions:" + str(surch(["mcfunction"],"data/galactipack/functions",func)))
 print("predicates:" + str(surch(["json"],"data/galactipack/predicates")))
 print("recipes:" + str(surch(["json"],"data/galactipack/recipes")))
-print("items:" + str(surch(["json"],"data/galactipack/loot_tables/items")))
+print("items:" + str(surch(["json"],"data/galactipack/loot_tables/i")))
 print("loot tables:" + str(surch(["json"],"data/galactipack/loot_tables",exception=["data/galactipack/loot_tables/items"])))
+print("plugin:" + str(surch(["json"],"data/galactipack/tags/functions")))
 if bad != []:print("/!\\ " + str(len(bad)) + " fonctions aren't comment: " + str(bad))

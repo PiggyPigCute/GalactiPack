@@ -14,3 +14,6 @@ tellraw @s {"text":"You are using the Galactipack datapack","color":"yellow","cl
 #define score_holder #random
 #define score_holder #big_prime
 #define entity @a[tag=convention.debug,distance=..3]
+
+#gp debug
+# ^^^ serv to quickly find every debug functions

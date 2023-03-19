@@ -23,5 +23,7 @@ execute if predicate galactipack:chance/25pc at @r[scores={galactipack.dimension
 execute if predicate galactipack:chance/25pc at @r[scores={galactipack.dimension=9}] run summon marker ~ ~ ~ {Tags:["galactipack.meteor","galactipack.pluto"]}
 # Sun
 execute if predicate galactipack:chance/25pc at @r[scores={galactipack.dimension=10}] run summon marker ~ ~ ~ {Tags:["galactipack.meteor","galactipack.sun"]}
+# Plugin?
+function #galactipack:meteor/a_generate
 
 execute as @e[type=marker,tag=galactipack.meteor] at @s run function galactipack:meteor/generate/b_init

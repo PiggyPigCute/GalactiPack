@@ -23,3 +23,5 @@ execute if entity @s[tag=galactipack.neptune] run setblock ~ ~-1 ~ player_head{S
 execute if entity @s[tag=galactipack.pluto] run setblock ~ ~-1 ~ player_head destroy
 # Sun
 execute if entity @s[tag=galactipack.sun] run setblock ~ ~-1 ~ player_head destroy
+# Plugin
+function #galactipack:meteor/c_setblock

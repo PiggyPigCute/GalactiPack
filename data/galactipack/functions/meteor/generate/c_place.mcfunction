@@ -23,5 +23,7 @@ execute if entity @s[tag=galactipack.neptune] run spreadplayers ~ ~ 20 40 false 
 execute if entity @s[tag=galactipack.pluto] run spreadplayers ~ ~ 20 40 false @s
 # Sun
 execute if entity @s[tag=galactipack.sun] run spreadplayers ~ ~ 20 40 false @s
+# Plugin?
+function #galactipack:meteor/b_place
 
 execute at @s run function galactipack:meteor/generate/d_check

@@ -17,8 +17,6 @@ fusées:
 o2:
 	tanks:
 		creative
-~~	disable outdoor farms in space~~
-~~	farm machine~~
 
 bugs:
 	smelting custom stuff
@@ -30,4 +28,4 @@ update to 1.19.4:
 ~~	/damage~~
 	update libraries
 
-plugin compatibility
+~~plugin compatibility~~
