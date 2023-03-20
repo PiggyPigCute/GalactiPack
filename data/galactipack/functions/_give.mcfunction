@@ -10,7 +10,6 @@ loot give @s loot galactipack:is/materials
 loot give @s loot galactipack:i/o2/mask
 loot give @s loot galactipack:is/o2_tanks
 loot give @s loot galactipack:is/o2_blocks
-loot give @s loot galactipack:i/o2/machine/creative
 
 # Blocks
 loot give @s loot galactipack:i/blocks/space_crafter
@@ -23,3 +22,6 @@ loot give @s loot galactipack:i/blocks/space_farm
 # Specials
 loot give @s loot galactipack:is/rocket
 loot give @s loot galactipack:i/coaldirt
+
+# Creative only (op)
+loot give @s[gamemode=creative] loot galactipack:is/creative

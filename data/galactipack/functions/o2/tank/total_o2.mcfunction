@@ -12,6 +12,5 @@ execute store result score #temp4 galactipack.o2 run data get storage galactipac
 scoreboard players operation #max galactipack.o2 = #temp3 galactipack.o2
 scoreboard players operation #max galactipack.o2 += #temp4 galactipack.o2
 
-execute unless score #temp1 galactipack.o2 matches 0 run function galactipack:o2/tank/o2/left
-execute if score #temp1 galactipack.o2 matches 0 unless score #temp2 galactipack.o2 matches 0 run function galactipack:o2/tank/o2/right
-execute if score @s galactipack.o2 matches 0 run scoreboard players set #temp galactipack.data 0
+execute store result score #temp galactipack.data if data entity @s Inventory[{tag:{galactipack:{o2_tank:{creative:true}}}}]
+execute if score #temp galactipack.data matches 0 run function galactipack:o2/tank/no_crea

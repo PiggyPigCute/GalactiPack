@@ -1,4 +1,4 @@
-## function galactipack:o2/spreader/work/tank
+## function galactipack:o2/spreader/work/no_crea
 
 #o2
 execute as @e[type=marker,tag=galactipack.o2,tag=!galactipack.o2.true,distance=..20,sort=nearest] if score #temp galactipack.o2 = @s galactipack.o2 run tag @s add galactipack.o2.true

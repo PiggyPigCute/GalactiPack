@@ -1,4 +1,4 @@
-## function galactipack:o2/tank/total_o2
+## function galactipack:o2/tank/no_crea
 
 #o2
 scoreboard players remove #temp1 galactipack.o2 1
