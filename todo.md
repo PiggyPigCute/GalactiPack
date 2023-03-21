@@ -16,7 +16,7 @@ fusées:
 	t4
 o2:
 	tanks:
-		creative
+~~		creative~~
 
 bugs:
 	smelting custom stuff

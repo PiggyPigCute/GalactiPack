@@ -1,4 +1,4 @@
-## function galactipack:o2/spreader/place/as_frame
+## function galactipack:o2/spreader/place/as_display
 
 scoreboard players add #spreader galactipack.data 1
 scoreboard players operation @s galactipack.o2 = #spreader galactipack.data
