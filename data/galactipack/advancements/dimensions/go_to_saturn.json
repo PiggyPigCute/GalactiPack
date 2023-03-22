@@ -1,0 +1,13 @@
+{
+	"criteria": {
+		"saturn": {
+			"trigger": "changed_dimension",
+			"conditions": {
+				"to": "galactipack:saturn"
+			}
+		}
+	},
+	"rewards": {
+		"function": "galactipack:dimensions/go_to_saturn"
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"criteria": {
+		"venus": {
+			"trigger": "changed_dimension",
+			"conditions": {
+				"to": "galactipack:venus"
+			}
+		}
+	},
+	"rewards": {
+		"function": "galactipack:dimensions/go_to_venus"
+	}
+}

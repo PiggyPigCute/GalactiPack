@@ -1,0 +1,13 @@
+{
+	"criteria": {
+		"pluto": {
+			"trigger": "changed_dimension",
+			"conditions": {
+				"to": "galactipack:pluto"
+			}
+		}
+	},
+	"rewards": {
+		"function": "galactipack:dimensions/go_to_pluto"
+	}
+}

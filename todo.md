@@ -3,7 +3,7 @@ dimensions:
 		minerais
 		météors
 	Asteroids
-	venus
+	Venus
 	Jupiter
 	Saturn
 	Uranus

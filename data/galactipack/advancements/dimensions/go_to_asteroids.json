@@ -1,0 +1,13 @@
+{
+	"criteria": {
+		"asteroids": {
+			"trigger": "changed_dimension",
+			"conditions": {
+				"to": "galactipack:asteroids"
+			}
+		}
+	},
+	"rewards": {
+		"function": "galactipack:dimensions/go_to_asteroids"
+	}
+}

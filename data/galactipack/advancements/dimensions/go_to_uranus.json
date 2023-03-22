@@ -1,0 +1,13 @@
+{
+	"criteria": {
+		"uranus": {
+			"trigger": "changed_dimension",
+			"conditions": {
+				"to": "galactipack:uranus"
+			}
+		}
+	},
+	"rewards": {
+		"function": "galactipack:dimensions/go_to_uranus"
+	}
+}

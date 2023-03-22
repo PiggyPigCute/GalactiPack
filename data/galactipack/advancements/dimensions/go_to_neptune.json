@@ -1,0 +1,13 @@
+{
+	"criteria": {
+		"neptune": {
+			"trigger": "changed_dimension",
+			"conditions": {
+				"to": "galactipack:neptune"
+			}
+		}
+	},
+	"rewards": {
+		"function": "galactipack:dimensions/go_to_neptune"
+	}
+}

@@ -16,49 +16,49 @@
 		{
 			"condition": "minecraft:location_check",
 			"predicate": {
-				"dimension": "galactipack:moon"
+				"dimension": "galactipack:asteroids"
 			}
 		},
 		{
 			"condition": "minecraft:location_check",
 			"predicate": {
-				"dimension": "galactipack:moon"
+				"dimension": "galactipack:venus"
 			}
 		},
 		{
 			"condition": "minecraft:location_check",
 			"predicate": {
-				"dimension": "galactipack:moon"
+				"dimension": "galactipack:jupiter"
 			}
 		},
 		{
 			"condition": "minecraft:location_check",
 			"predicate": {
-				"dimension": "galactipack:moon"
+				"dimension": "galactipack:saturn"
 			}
 		},
 		{
 			"condition": "minecraft:location_check",
 			"predicate": {
-				"dimension": "galactipack:moon"
+				"dimension": "galactipack:uranus"
 			}
 		},
 		{
 			"condition": "minecraft:location_check",
 			"predicate": {
-				"dimension": "galactipack:moon"
+				"dimension": "galactipack:neptune"
 			}
 		},
 		{
 			"condition": "minecraft:location_check",
 			"predicate": {
-				"dimension": "galactipack:moon"
+				"dimension": "galactipack:pluto"
 			}
 		},
 		{
 			"condition": "minecraft:location_check",
 			"predicate": {
-				"dimension": "galactipack:moon"
+				"dimension": "galactipack:sun"
 			}
 		}
 	]

@@ -1,0 +1,13 @@
+{
+	"criteria": {
+		"sun": {
+			"trigger": "changed_dimension",
+			"conditions": {
+				"to": "galactipack:sun"
+			}
+		}
+	},
+	"rewards": {
+		"function": "galactipack:dimensions/go_to_sun"
+	}
+}
