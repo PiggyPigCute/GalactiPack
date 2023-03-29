@@ -3,4 +3,4 @@
 #Make reusable
 advancement revoke @s only galactipack:farm/no_farm
 
-execute unless score @s galactipack.dimension matches 0 run fill ~5 ~5 ~5 ~-5 ~-5 ~-5 dirt replace farmland
+execute unless score @s galactipack.dimension matches 0 run function galactipack:farm/remove_farmland
