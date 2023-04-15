@@ -4,7 +4,7 @@ data merge entity @s {item:{Count:1b,id:"stick",tag:{CustomModelData:8977005,ite
 
 scoreboard players set @s galactipack.data 0
 
-execute if predicate galactipack:overworld run tag @s add galactipack.overworld
+execute if dimension overworld run tag @s add galactipack.overworld
 execute if predicate galactipack:in_space run tag @s add galactipack.in_space
 
 function #itemio:calls/container/init
