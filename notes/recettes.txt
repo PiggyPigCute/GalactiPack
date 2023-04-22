@@ -90,3 +90,14 @@ o2 generator:
 		P: minecraft:glass_pane
 		C: galactipack:o2_collector
 		M: red_meteor_plate
+
+todo:
+	o2 tank t4
+	o2 tank t5
+	o2 tank t6
+	o2 spreader
+	o2 cleaner
+	o2 dilator
+	o2 mask
+	meteor shield
+	space_farm
