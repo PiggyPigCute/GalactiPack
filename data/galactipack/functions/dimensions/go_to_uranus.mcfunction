@@ -1,10 +1,9 @@
+## advancement galactipack:dimensions/go_to_uranus
 
 # function executed when a player arrive at the uranus  (← adv)
-
 # as-at: player
 
-
-
+#Make reusable
 advancement revoke @s only galactipack:dimensions/go_to_uranus
 
 scoreboard players set @s galactipack.dimension 7

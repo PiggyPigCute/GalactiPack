@@ -1,3 +1,4 @@
+## function #load:load
 
 # Convention, c'est écrit dans le nom du tag en plus mdr
 tag _PiggyPig_ add convention.debug
@@ -15,7 +16,6 @@ schedule function galactipack:base/sched_2t/ 2t replace
 schedule function galactipack:base/sched_1s/ 5t replace
 schedule function galactipack:base/sched_120s 120s replace
 
-
 # Scores
 scoreboard objectives add galactipack.data dummy
 scoreboard players set #3 galactipack.data 3
@@ -29,12 +29,10 @@ scoreboard objectives add galactipack.o2 dummy
 scoreboard objectives add galactipack.dimension dummy
 scoreboard objectives add galactipack.death deathCount
 
-
 # Armor stand en 0 -66 0 
 # 6a32e855-3e87-43a8-902b-04632b2836f8
 execute in overworld run forceload add 0 0
 execute in overworld run summon armor_stand 0 -66 0 {Marker:1b,Invisible:1b,Tags:["global.ignore","global.ignore.kill"],UUID:[I;1781721173,1049052072,-1876229021,724055800]}
-
 
 # Items ands blocks
 function galactipack:base/items

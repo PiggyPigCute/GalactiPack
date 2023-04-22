@@ -1,6 +1,10 @@
 from os import listdir, system
 
+maxi = 0
+total = 0
+bigest = ""
 bad = []
+mt = []
 system("cls")
 
 def surch(extension:list[str],path:str,function = None,exception = None):
@@ -18,24 +22,35 @@ def surch(extension:list[str],path:str,function = None,exception = None):
 					if function:function(path + a)
 	return out
 
-def func(path):
-	global bad
+def max_linie(mcfunction):
+	global maxi, bigest, bad, total
+	out = 0
+	a = open(mcfunction,"r")
+	b = a.readlines()
+	a.close()
 	try:
-		a = open(path)
-		b = a.readlines()[0]
-		a.close()
-		if b != "\n" and b[0:2] != "##":
-			bad.append(path)
-	except UnicodeDecodeError:
-		a.close()
+		if b[0][0:2] != "##":
+			bad.append(mcfunction)
 	except IndexError:
-		a.close()
+		bad.append(mcfunction)
+	for a in b:
+		if a[0] != "#" and a != "\n" and a != "":
+			out += 1
+	if out == 0:
+		mt.append(mcfunction)
+	else:
+		total += out
+		if out > maxi:
+			maxi = out
+			bigest = mcfunction
 
 print("advancements:" + str(surch(["json"],"data/galactipack/advancements")) + " (display: " + str(surch(["json"],"data/galactipack/advancements/display")) + ")")
-print("functions:" + str(surch(["mcfunction"],"data/galactipack/functions",func)))
+print("functions:" + str(surch(["mcfunction"],"data/galactipack/functions",max_linie,[])) + " (bigest: " + str(maxi) + " (" + bigest + "), total commands: " + str(total) + ")")
 print("predicates:" + str(surch(["json"],"data/galactipack/predicates")))
 print("recipes:" + str(surch(["json"],"data/galactipack/recipes")))
 print("items:" + str(surch(["json"],"data/galactipack/loot_tables/i")))
-print("loot tables:" + str(surch(["json"],"data/galactipack/loot_tables",exception=["data/galactipack/loot_tables/items"])))
+print("loot tables:" + str(surch(["json"],"data/galactipack/loot_tables",exception="data/galactipack/loot_tables/i")))
 print("plugin:" + str(surch(["json"],"data/galactipack/tags/functions")))
 if bad != []:print("/!\\ " + str(len(bad)) + " fonctions aren't comment: " + str(bad))
+if mt != []:print("/!\\ " + str(len(mt)) + " fonctions are empty: " + str(mt))
+input()

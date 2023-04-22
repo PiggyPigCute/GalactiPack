@@ -1,3 +1,5 @@
+## function galactipack:base/sched_120s (self)
+## function galactipack:base/load
 
 # schedule 120s (← ./load)
 

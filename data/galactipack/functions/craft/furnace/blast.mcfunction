@@ -1,3 +1,4 @@
+## function #furnace_nbt_recipes:v1/blasting_recipes
 
 # Blast_furnace recipes
 

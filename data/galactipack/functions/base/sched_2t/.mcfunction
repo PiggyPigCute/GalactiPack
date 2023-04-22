@@ -1,4 +1,5 @@
-
+## function galactipack:base/sched_2t/ (self)
+## function galactipack:base/load
 # schedule 2t (← ./load)
 
 # as-at: World

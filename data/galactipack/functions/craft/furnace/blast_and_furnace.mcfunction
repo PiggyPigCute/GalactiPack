@@ -1,3 +1,5 @@
+## function #furnace_nbt_recipes:v1/smelting_recipes
+## function #furnace_nbt_recipes:v1/blasting_recipes
 
 # furnace and blast_furnace recipes
 

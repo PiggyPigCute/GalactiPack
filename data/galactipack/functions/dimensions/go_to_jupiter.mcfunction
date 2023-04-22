@@ -1,10 +1,9 @@
+## advancement revoke @s only galactipack:dimensions/go_to_jupiter
 
 # function executed when a player arrive at the jupiter  (← adv)
-
 # as-at: player
 
-
-
+# make reusable
 advancement revoke @s only galactipack:dimensions/go_to_jupiter
 
 scoreboard players set @s galactipack.dimension 5

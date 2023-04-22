@@ -1,10 +1,9 @@
+## advancement galactipack:dimensions/go_to_mars
 
 # function executed when a player arrive at the mars  (← adv)
-
 # as-at: player
 
-
-
+#Make reusable
 advancement revoke @s only galactipack:dimensions/go_to_mars
 
 scoreboard players set @s galactipack.dimension 2

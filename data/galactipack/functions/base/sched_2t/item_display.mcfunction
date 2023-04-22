@@ -1,6 +1,6 @@
+## function galactipack:base/sched_2t/
 
 # Schedule 2t as every blocks (← ./)
-
 
 # Dropper GUI
 execute if entity @s[tag=galactipack.gui] unless block ~ ~ ~ dropper run function galactipack:base/gui/re_gui/no_gui

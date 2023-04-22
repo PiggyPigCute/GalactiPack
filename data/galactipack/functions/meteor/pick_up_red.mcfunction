@@ -1,10 +1,9 @@
+## advancement galactipack:meteor/pick_up_red
 
 # function when a player pick_up a red meteorite
-
 # as-at le joueur
 
-
-
+#Make reusable
 advancement revoke @s only galactipack:meteor/pick_up_red
 
 # clear natural item

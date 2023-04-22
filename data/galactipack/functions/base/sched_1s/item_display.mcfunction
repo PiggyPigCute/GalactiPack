@@ -2,7 +2,6 @@
 
 # Schedule 1s as every blocks (← ./)
 
-
 # Dropper gui
 execute if entity @s[tag=galactipack.gui] run function galactipack:base/gui/
 

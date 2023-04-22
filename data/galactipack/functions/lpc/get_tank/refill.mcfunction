@@ -1,9 +1,9 @@
+## function galactipack:lpc/get_tank/
 
 # function that replace a tank (0 tier) in the lpc (← ./)
 
 # as: player
 # at: LPC (frame)
-
 
 item replace block ~ ~ ~ container.2 with command_block
 execute if score #temp galactipack.data matches 1 run data modify block ~ ~ ~ Items[{Slot:2b}].tag set from entity @s Inventory[{id:"minecraft:command_block",tag:{galactipack:{lpc_tank:1b}}}].tag

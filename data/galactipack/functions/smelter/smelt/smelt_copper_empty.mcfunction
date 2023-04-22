@@ -1,7 +1,6 @@
+## function galactipack:smelter/smelt/smelt_copper
 
-# function when copper is in first slot and nothing in the exit slot ( <- ./smelt_copper)
-
-
+# function when copper is in first slot and nothing in the exit slot ( ← ./smelt_copper)
 
 function galactipack:smelter/smelt/smelt
 data modify block ~ ~ ~ Items append value {Slot:2b,Count:1b,id:"minecraft:stick",tag:{}}

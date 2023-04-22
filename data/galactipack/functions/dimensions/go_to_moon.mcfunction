@@ -1,10 +1,9 @@
+## advancement galactipack:dimensions/go_to_moon
 
 # function executed when a player arrive at the moon  (← adv)
-
 # as-at: player
 
-
-
+#Make reusable
 advancement revoke @s only galactipack:dimensions/go_to_moon
 
 scoreboard players set @s galactipack.dimension 1

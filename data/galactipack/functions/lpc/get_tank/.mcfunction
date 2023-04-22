@@ -1,9 +1,9 @@
+## advancement galactipack:lpc/get_tank/
 
 # function executedf when a player take the tank in a LPC  (← adv)
-
 # as-at: player
 
-
+#Make reusable
 advancement revoke @s only galactipack:lpc/get_tank
 
 scoreboard players set #temp galactipack.data 1

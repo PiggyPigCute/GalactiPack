@@ -1,10 +1,9 @@
+## advancement galactipack:dimensions/go_to_neptune
 
 # function executed when a player arrive at the neptune  (← adv)
-
 # as-at: player
 
-
-
+#Make reusable
 advancement revoke @s only galactipack:dimensions/go_to_neptune
 
 scoreboard players set @s galactipack.dimension 8

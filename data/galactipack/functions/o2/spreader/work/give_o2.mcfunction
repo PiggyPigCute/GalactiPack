@@ -13,7 +13,6 @@ scoreboard players operation #temp2 galactipack.data *= #59 galactipack.data
 scoreboard players operation #temp2 galactipack.data /= #temp1 galactipack.data
 execute store result storage galactipack:data temp.Damage int 1 run scoreboard players get #temp2 galactipack.data
 
-
 #back in the blocl
 data modify block ~ ~ ~ Items[{Slot:4b}].tag set from storage galactipack:data temp
 execute if score #temp galactipack.data matches 0 if block ~ ~-1 ~ hopper run function galactipack:base/extract/

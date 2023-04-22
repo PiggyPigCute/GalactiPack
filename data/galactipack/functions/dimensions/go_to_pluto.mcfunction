@@ -1,10 +1,9 @@
+## advancement galactipack:dimensions/go_to_pluto
 
 # function executed when a player arrive at the pluto  (← adv)
-
 # as-at: player
 
-
-
+#Make reusable
 advancement revoke @s only galactipack:dimensions/go_to_pluto
 
 scoreboard players set @s galactipack.dimension 9

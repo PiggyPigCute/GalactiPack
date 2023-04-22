@@ -1,10 +1,9 @@
+## advancement galactipack:dimensions/go_to_venus
 
 # function executed when a player arrive at the venus  (← adv)
-
 # as-at: player
 
-
-
+#Make reusable
 advancement revoke @s only galactipack:dimensions/go_to_venus
 
 scoreboard players set @s galactipack.dimension 4
