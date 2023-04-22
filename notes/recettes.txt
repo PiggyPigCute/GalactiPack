@@ -1,0 +1,92 @@
+smithed crafting table:
+	pattern:
+		###
+		#C#
+		SSS
+	key:
+		#: #minecraft:logs
+		C: minecraft:crafting_table
+		S: minecraft:smooth_stone
+pig assembler:
+	pattern:
+		FIF
+		GBG
+		CCC
+	keys:
+		B: minecraft:copper_block
+		C: minecraft:crafting_table
+		F: minecraft:flint
+		G: gold_plate
+		I: iron_plate
+lpc:
+	pattern:
+		PCP
+		I>I
+		PSP
+	keys:
+		>: minecraft:comparator
+		C: minecraft:compass
+		S: minecraft:smoker
+		I: iron_plate
+		P: copper_plate
+o2 tank t1:
+	pattern:
+		PGP
+		 I
+		PGP
+	keys:
+		G: minecraft:glass_bottle
+		I: minecraft:iron_ingot
+		P: iron_plate
+o2 tank t2:
+	pattern:
+		IGI
+		TDT
+		IGI
+	keys:
+		G: minecraft:glass_bottle
+		D: minecraft:diamond
+		T: galactipack:o2_tank_t1
+		I: iron_plate
+o2 tank t3:
+	pattern:
+		MGM
+		TDT
+		MGM
+	keys:
+		G: minecraft:glass_bottle
+		D: minecraft:diamond
+		T: galactipack:o2_tank_t2
+		M: red_meteor_plate
+o2 compressor:
+	pattern:
+		IPI
+		TCT
+		BPB
+	keys:
+		B: minecraft:bucket
+		I: minecraft:iron_bars
+		P: iron_plate
+		C: copper_plate
+		T: o2_tank
+o2 collector:
+	pattern:
+		PBP
+		BTB
+		MIM
+	keys:
+		B: minecraft:iron_bars
+		I: minecraft:iron_block
+		M: red_meteor_plate
+		P: iron_plate
+		T: o2_tank
+o2 generator:
+	pattern:
+		MPM
+		C C
+		MGM
+	keys:
+		G: minecraft:grass_block
+		P: minecraft:glass_pane
+		C: galactipack:o2_collector
+		M: red_meteor_plate
