@@ -11,13 +11,26 @@ dimensions:
 	Pluto
 	Sun
 fusées:
+	t1
 	t2
 	t3
 	t4
+crafts:
+	o2:
+		tanks:
+			t4
+			t5
+			t6
+		machines:
+			spreader
+			cleaner
+			dilator
+		mask
+	meteor shield
+	space_farm
 o2:
-	tanks:
-~~		creative~~
-
+	machines:
+		collector ( -> work only if next to plants)
 bugs:
 	smelting custom stuff
 	rocket don't place
