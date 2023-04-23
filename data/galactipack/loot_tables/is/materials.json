@@ -50,25 +50,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "galactipack:i/items/red_meteor_iron"
-				}
-			]
-		},
-		{
-			"rolls": 1,
-			"entries": [
-				{
-					"type": "minecraft:loot_table",
-					"name": "galactipack:i/items/red_meteor_ingot"
-				}
-			]
-		},
-		{
-			"rolls": 1,
-			"entries": [
-				{
-					"type": "minecraft:loot_table",
-					"name": "galactipack:i/items/plates/red_meteor_plate"
+					"name": "galactipack:is/meteors"
 				}
 			]
 		}

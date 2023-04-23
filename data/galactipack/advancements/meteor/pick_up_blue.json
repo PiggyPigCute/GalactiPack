@@ -1,0 +1,20 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:player_head"
+						],
+						"nbt": "{SkullOwner:{Properties:{textures:[{Value:\"\"}]}}}"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "galactipack:meteor/pick_up_blue"
+	}
+}
