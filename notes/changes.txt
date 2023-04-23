@@ -1,0 +1,62 @@
+space farm:
+	pattern:
+		MGM
+		IDI
+		WFW
+	keys:
+		D: minecraft:diamond_how
+		F: minecraft:farmland
+		G: minecraft:glass_pane
+		W: minecraft:water_bucker
+		I: iron_plate
+		M: red_meteor_plate
+o2 tank t2:
+	pattern:
+		MGM
+		TDT
+		MGM
+	keys:
+		G: minecraft:glass_bottle
+		D: minecraft:diamond
+		T: galactipack:o2_tank_t1
+		M: red_meteor_plate
+o2 tank t3:
+	pattern:
+		MGM
+		TOT
+		MGM
+	keys:
+		G: minecraft:glass_bottle
+		O: minecraft:obsidian
+		T: galactipack:o2_tank_t2
+		M: green_meteor_plate
+o2 tank t4:
+	pattern:
+		MGM
+		TAT
+		MGM
+	keys:
+		G: minecraft:glass_bottle
+		A: minecraft:ancient_debris
+		T: galactipack:o2_tank_t3
+		M: green_meteor_plate
+o2 tank t5:
+	pattern:
+		MGM
+		TNT
+		MGM
+	keys:
+		G: minecraft:glass_bottle
+		N: minecraft:netherite_ingot
+		T: galactipack:o2_tank_t4
+		M: blue_meteor_plate
+o2 tank t6:
+	pattern:
+		MGM
+		TNT
+		MGM
+	keys:
+		G: minecraft:glass_bottle
+		N: minecraft:netherite_block
+		T: galactipack:o2_tank_t5
+		M: blue_meteor_plate

@@ -3,7 +3,7 @@ smithed crafting table:
 		###
 		#C#
 		SSS
-	key:
+	keys:
 		#: #minecraft:logs
 		C: minecraft:crafting_table
 		S: minecraft:smooth_stone
@@ -29,6 +29,18 @@ lpc:
 		S: minecraft:smoker
 		I: iron_plate
 		P: copper_plate
+space farm:
+	pattern:
+		MGM
+		IDI
+		WFW
+	keys:
+		D: minecraft:diamond_how
+		F: minecraft:farmland
+		G: minecraft:glass_pane
+		W: minecraft:water_bucker
+		I: iron_plate
+		M: red_meteor_plate
 o2 tank t1:
 	pattern:
 		PGP
@@ -40,24 +52,54 @@ o2 tank t1:
 		P: iron_plate
 o2 tank t2:
 	pattern:
-		IGI
+		MGM
 		TDT
-		IGI
+		MGM
 	keys:
 		G: minecraft:glass_bottle
 		D: minecraft:diamond
 		T: galactipack:o2_tank_t1
-		I: iron_plate
+		M: red_meteor_plate
 o2 tank t3:
 	pattern:
 		MGM
-		TDT
+		TOT
 		MGM
 	keys:
 		G: minecraft:glass_bottle
-		D: minecraft:diamond
+		O: minecraft:obsidian
 		T: galactipack:o2_tank_t2
-		M: red_meteor_plate
+		M: green_meteor_plate
+o2 tank t4:
+	pattern:
+		MGM
+		TAT
+		MGM
+	keys:
+		G: minecraft:glass_bottle
+		A: minecraft:ancient_debris
+		T: galactipack:o2_tank_t3
+		M: green_meteor_plate
+o2 tank t5:
+	pattern:
+		MGM
+		TNT
+		MGM
+	keys:
+		G: minecraft:glass_bottle
+		N: minecraft:netherite_ingot
+		T: galactipack:o2_tank_t4
+		M: blue_meteor_plate
+o2 tank t6:
+	pattern:
+		MGM
+		TNT
+		MGM
+	keys:
+		G: minecraft:glass_bottle
+		N: minecraft:netherite_block
+		T: galactipack:o2_tank_t5
+		M: blue_meteor_plate
 o2 compressor:
 	pattern:
 		IPI
@@ -92,12 +134,10 @@ o2 generator:
 		M: red_meteor_plate
 
 todo:
-	o2 tank t4
+	meteor shield
 	o2 tank t5
 	o2 tank t6
 	o2 spreader
 	o2 cleaner
 	o2 dilator
 	o2 mask
-	meteor shield
-	space_farm
