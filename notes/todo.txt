@@ -8,7 +8,7 @@ dimensions:
 	Saturn
 	Uranus
 	Neptune
-	Pluto
+	Mercury
 	Sun
 fusées:
 	t1

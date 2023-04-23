@@ -1,13 +1,13 @@
 {
 	"criteria": {
-		"pluto": {
+		"mercury": {
 			"trigger": "changed_dimension",
 			"conditions": {
-				"to": "galactipack:pluto"
+				"to": "galactipack:mercury"
 			}
 		}
 	},
 	"rewards": {
-		"function": "galactipack:dimensions/go_to_pluto"
+		"function": "galactipack:dimensions/go_to_mercury"
 	}
 }

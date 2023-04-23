@@ -19,8 +19,8 @@ execute if entity @s[tag=galactipack.saturn] run spreadplayers ~ ~ 20 40 false @
 execute if entity @s[tag=galactipack.uranus] run spreadplayers ~ ~ 20 40 false @s
 # Neptune
 execute if entity @s[tag=galactipack.neptune] run spreadplayers ~ ~ 20 40 false @s
-# Pluto
-execute if entity @s[tag=galactipack.pluto] run spreadplayers ~ ~ 20 40 false @s
+# Mercure
+execute if entity @s[tag=galactipack.mercury] run spreadplayers ~ ~ 20 40 false @s
 # Sun
 execute if entity @s[tag=galactipack.sun] run spreadplayers ~ ~ 20 40 false @s
 # Plugin?

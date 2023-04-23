@@ -52,7 +52,7 @@
 		{
 			"condition": "minecraft:location_check",
 			"predicate": {
-				"dimension": "galactipack:pluto"
+				"dimension": "galactipack:mercury"
 			}
 		},
 		{

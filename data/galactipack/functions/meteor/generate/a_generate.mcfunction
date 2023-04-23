@@ -19,8 +19,8 @@ execute if predicate galactipack:chance/25pc at @r[scores={galactipack.dimension
 execute if predicate galactipack:chance/25pc at @r[scores={galactipack.dimension=7}] run summon marker ~ ~ ~ {Tags:["galactipack.meteor","galactipack.uranus"]}
 # Neptune
 execute if predicate galactipack:chance/25pc at @r[scores={galactipack.dimension=8}] run summon marker ~ ~ ~ {Tags:["galactipack.meteor","galactipack.neptune"]}
-# Pluto
-execute if predicate galactipack:chance/25pc at @r[scores={galactipack.dimension=9}] run summon marker ~ ~ ~ {Tags:["galactipack.meteor","galactipack.pluto"]}
+# Mercure
+execute if predicate galactipack:chance/25pc at @r[scores={galactipack.dimension=9}] run summon marker ~ ~ ~ {Tags:["galactipack.meteor","galactipack.mercury"]}
 # Sun
 execute if predicate galactipack:chance/25pc at @r[scores={galactipack.dimension=10}] run summon marker ~ ~ ~ {Tags:["galactipack.meteor","galactipack.sun"]}
 # Plugin?
