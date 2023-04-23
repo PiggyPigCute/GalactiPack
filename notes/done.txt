@@ -23,6 +23,7 @@ o2:
 		t5
 		t6
 	machines:
+		collector
 		compressor
 		generator
 		spreader

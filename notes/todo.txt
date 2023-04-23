@@ -28,18 +28,10 @@ crafts:
 		mask
 	meteor shield
 	space_farm
-o2:
-	machines:
-		collector ( -> work only if next to plants)
 bugs:
 	smelting custom stuff
 	rocket don't place
 	block's texture is black
 
 update to 1.19.4:
-~~	execute summon (not with items)~~
-~~	block_display~~
-~~	/damage~~
 	update libraries
-
-~~plugin compatibility~~
