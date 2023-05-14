@@ -5,11 +5,15 @@ dimensions:
 crafts:
 	pig assembler
 	lpc
+	space_farm
 	o2:
 		tanks:
 			t1
 			t2
 			t3
+			t4
+			t5
+			t6
 		machines:
 			compressor
 			collector

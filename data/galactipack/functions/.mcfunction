@@ -7,6 +7,7 @@ tellraw @s {"text":"You are using the Galactipack datapack","color":"yellow","cl
 
 #define storage galactipack:use
 #define storage galactipack:items
+#define storage galactipack:itemio
 #define storage galactipack:main
 #define storage galactipack:data Storage temporaire à vider après utilisation
 #define score_holder #craft_detected

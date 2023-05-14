@@ -38,6 +38,7 @@ execute in overworld run summon armor_stand 0 -66 0 {Marker:1b,Invisible:1b,Tags
 
 # Items ands blocks
 function galactipack:base/items
+function galactipack:base/itemio
 
 # Remove message when place a block
 gamerule commandBlockOutput false
