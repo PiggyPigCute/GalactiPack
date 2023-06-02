@@ -16,9 +16,8 @@ loot give @s loot galactipack:i/blocks/lpc
 loot give @s loot galactipack:i/blocks/meteor_shield
 loot give @s loot galactipack:i/blocks/space_farm
 
-# Specials
+# Rockets
 loot give @s loot galactipack:is/rocket
-loot give @s loot galactipack:i/coaldirt
 
 # Creative only (op)
 loot give @s[gamemode=creative] loot galactipack:is/creative

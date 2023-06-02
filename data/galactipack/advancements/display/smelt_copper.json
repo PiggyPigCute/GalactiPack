@@ -5,9 +5,9 @@
 			"nbt": "{CustomModelData:8977002}"
 		},
 		"title": "Worth?",
-		"description": "Press copper in your new Smelter"
+		"description": "Smelt copper in a Blast Furnace"
 	},
-	"parent": "galactipack:display/craft_smelter",
+	"parent": "galactipack:display/root",
 	"criteria": {
 		"requirement": {
 			"trigger": "minecraft:inventory_changed",

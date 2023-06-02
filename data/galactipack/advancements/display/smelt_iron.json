@@ -5,7 +5,7 @@
 			"nbt": "{CustomModelData:8977003}"
 		},
 		"title": "Strong.",
-		"description": "Press iron in your new Smelter"
+		"description": "Press iron in a Blast Furnace"
 	},
 	"parent": "galactipack:display/smelt_copper",
 	"criteria": {

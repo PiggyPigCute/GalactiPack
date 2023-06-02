@@ -5,7 +5,7 @@
 			"nbt": "{CustomModelData:8977004}"
 		},
 		"title": "Shiny!",
-		"description": "Press gold in your new Smelter"
+		"description": "Flatten gold in a Blast Furnace"
 	},
 	"parent": "galactipack:display/smelt_iron",
 	"criteria": {

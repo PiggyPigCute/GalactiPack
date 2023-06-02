@@ -5,12 +5,6 @@
 # Dropper GUI
 execute if entity @s[tag=galactipack.gui] unless block ~ ~ ~ dropper run function galactipack:base/gui/re_gui/no_gui
 
-# Smelter
-execute if entity @s[tag=galactipack.smelter] unless block ~ ~ ~ blast_furnace run kill @s
-
-# Space Crafter
-execute if entity @s[tag=galactipack.space_crafter] unless block ~ ~ ~ dropper run kill @s
-
 # Pig Assembler
 execute if entity @s[tag=galactipack.pig_assembler] unless block ~ ~ ~ barrel run function galactipack:pig_assembler/place/remove
 
