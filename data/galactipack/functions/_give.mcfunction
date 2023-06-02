@@ -11,8 +11,6 @@ loot give @s loot galactipack:is/o2_tanks
 loot give @s loot galactipack:is/o2_blocks
 
 # Blocks
-loot give @s loot galactipack:i/blocks/space_crafter
-loot give @s loot galactipack:i/blocks/smelter
 loot give @s loot galactipack:i/blocks/pig_assembler
 loot give @s loot galactipack:i/blocks/lpc
 loot give @s loot galactipack:i/blocks/meteor_shield
