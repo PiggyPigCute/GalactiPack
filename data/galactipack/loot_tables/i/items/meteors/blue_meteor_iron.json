@@ -16,7 +16,7 @@
 							},
 							"ops": [
 								{
-									"source": "all.blue_meteor_iron.tag",
+									"source": "data.blue_meteor_iron.tag",
 									"target": "{}",
 									"op": "merge"
 								}

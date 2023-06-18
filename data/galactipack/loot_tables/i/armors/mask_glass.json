@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:iron_helmet",
+					"name": "minecraft:glass",
 					"functions": [
 						{
 							"function": "minecraft:copy_nbt",
@@ -16,7 +16,7 @@
 							},
 							"ops": [
 								{
-									"source": "all.o2.mask.tag",
+									"source": "data.o2.mask_glass.tag",
 									"target": "{}",
 									"op": "merge"
 								}

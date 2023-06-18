@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:wooden_shovel",
+					"name": "minecraft:command_block",
 					"functions": [
 						{
 							"function": "minecraft:copy_nbt",
@@ -16,7 +16,7 @@
 							},
 							"ops": [
 								{
-									"source": "all.o2.tank.6.tag",
+									"source": "data.blue_meteor_plate.tag",
 									"target": "{}",
 									"op": "merge"
 								}

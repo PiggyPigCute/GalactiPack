@@ -16,7 +16,7 @@
 							},
 							"ops": [
 								{
-									"source": "all.lpc.tag",
+									"source": "data.lpc.tag",
 									"target": "{}",
 									"op": "merge"
 								}

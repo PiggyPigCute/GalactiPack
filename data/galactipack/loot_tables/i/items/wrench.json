@@ -16,7 +16,7 @@
 							},
 							"ops": [
 								{
-									"source": "all.wrench.tag",
+									"source": "data.wrench.tag",
 									"target": "{}",
 									"op": "merge"
 								}

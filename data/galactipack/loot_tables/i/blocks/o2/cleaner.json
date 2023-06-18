@@ -16,7 +16,7 @@
 							},
 							"ops": [
 								{
-									"source": "all.o2.machine.collector.tag",
+									"source": "data.o2.machine.cleaner.tag",
 									"target": "{}",
 									"op": "merge"
 								}

@@ -16,7 +16,7 @@
 							},
 							"ops": [
 								{
-									"source": "all.o2.tank.creative.tag",
+									"source": "data.o2.tank.3.tag",
 									"target": "{}",
 									"op": "merge"
 								}

@@ -5,7 +5,7 @@
 			"entries": [
 				{
 					"type": "loot_table",
-					"name": "galactipack:i/o2/machine/creative"
+					"name": "galactipack:i/blocks/o2/creative_filler"
 				}
 			]
 		},
@@ -14,7 +14,7 @@
 			"entries": [
 				{
 					"type": "loot_table",
-					"name": "galactipack:i/o2/tank/creative"
+					"name": "galactipack:i/items/o2_tank/creative"
 				}
 			]
 		}

@@ -16,7 +16,7 @@
 							},
 							"ops": [
 								{
-									"source": "all.iron_plate.tag",
+									"source": "data.copper_plate.tag",
 									"target": "{}",
 									"op": "merge"
 								}

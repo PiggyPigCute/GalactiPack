@@ -5,7 +5,7 @@
 			"entries": [
 				{
 					"type": "loot_table",
-					"name": "galactipack:i/o2/tank/t1"
+					"name": "galactipack:i/items/o2_tanks/t1"
 				}
 			]
 		},
@@ -14,7 +14,7 @@
 			"entries": [
 				{
 					"type": "loot_table",
-					"name": "galactipack:i/o2/tank/t2"
+					"name": "galactipack:i/items/o2_tanks/t2"
 				}
 			]
 		},
@@ -23,7 +23,7 @@
 			"entries": [
 				{
 					"type": "loot_table",
-					"name": "galactipack:i/o2/tank/t3"
+					"name": "galactipack:i/items/o2_tanks/t3"
 				}
 			]
 		},
@@ -32,7 +32,7 @@
 			"entries": [
 				{
 					"type": "loot_table",
-					"name": "galactipack:i/o2/tank/t4"
+					"name": "galactipack:i/items/o2_tanks/t4"
 				}
 			]
 		},
@@ -41,7 +41,7 @@
 			"entries": [
 				{
 					"type": "loot_table",
-					"name": "galactipack:i/o2/tank/t5"
+					"name": "galactipack:i/items/o2_tanks/t5"
 				}
 			]
 		},
@@ -50,7 +50,7 @@
 			"entries": [
 				{
 					"type": "loot_table",
-					"name": "galactipack:i/o2/tank/t6"
+					"name": "galactipack:i/items/o2_tanks/t6"
 				}
 			]
 		}

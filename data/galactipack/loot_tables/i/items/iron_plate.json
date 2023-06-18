@@ -16,7 +16,7 @@
 							},
 							"ops": [
 								{
-									"source": "all.red_meteor_plate.tag",
+									"source": "data.iron_plate.tag",
 									"target": "{}",
 									"op": "merge"
 								}

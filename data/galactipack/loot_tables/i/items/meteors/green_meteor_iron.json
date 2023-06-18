@@ -16,7 +16,7 @@
 							},
 							"ops": [
 								{
-									"source": "all.green_meteor_iron.tag",
+									"source": "data.green_meteor_iron.tag",
 									"target": "{}",
 									"op": "merge"
 								}

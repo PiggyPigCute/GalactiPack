@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:wooden_shovel",
+					"name": "minecraft:glow_item_frame",
 					"functions": [
 						{
 							"function": "minecraft:copy_nbt",
@@ -16,7 +16,7 @@
 							},
 							"ops": [
 								{
-									"source": "all.o2.tank.1.tag",
+									"source": "data.rocket.t2.tag",
 									"target": "{}",
 									"op": "merge"
 								}

@@ -16,7 +16,7 @@
 							},
 							"ops": [
 								{
-									"source": "all.meteor_shield.tag",
+									"source": "data.meteor_shield.tag",
 									"target": "{}",
 									"op": "merge"
 								}

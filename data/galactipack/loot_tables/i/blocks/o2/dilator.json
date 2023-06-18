@@ -16,7 +16,7 @@
 							},
 							"ops": [
 								{
-									"source": "all.o2.machine.spreader.tag",
+									"source": "data.o2.machine.dilator.tag",
 									"target": "{}",
 									"op": "merge"
 								}

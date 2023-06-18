@@ -16,7 +16,7 @@
 							},
 							"ops": [
 								{
-									"source": "all.blue_meteor_ingot.tag",
+									"source": "data.blue_meteor_ingot.tag",
 									"target": "{}",
 									"op": "merge"
 								}

@@ -16,7 +16,7 @@
 							},
 							"ops": [
 								{
-									"source": "all.pig_assembler.tag",
+									"source": "data.pig_assembler.tag",
 									"target": "{}",
 									"op": "merge"
 								}

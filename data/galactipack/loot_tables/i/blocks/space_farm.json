@@ -16,7 +16,7 @@
 							},
 							"ops": [
 								{
-									"source": "all.farm.tag",
+									"source": "data.farm.tag",
 									"target": "{}",
 									"op": "merge"
 								}

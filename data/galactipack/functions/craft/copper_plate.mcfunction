@@ -8,4 +8,4 @@ advancement revoke @s only galactipack:craft/copper_plate
 recipe take @s galactipack:copper_plate
 
 clear @s knowledge_book 1
-loot give @s loot galactipack:i/items/plates/copper_plate
+loot give @s loot galactipack:i/items/copper_plate

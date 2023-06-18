@@ -6,9 +6,9 @@
 loot give @s loot galactipack:i/items/wrench
 loot give @s loot galactipack:is/materials
 #o2
-loot give @s loot galactipack:i/o2/mask
+loot give @s loot galactipack:i/armors/mask
 loot give @s loot galactipack:is/o2_tanks
-loot give @s loot galactipack:is/o2_blocks
+loot give @s loot galactipack:is/o2_machines
 
 # Blocks
 loot give @s loot galactipack:i/blocks/pig_assembler
@@ -17,7 +17,7 @@ loot give @s loot galactipack:i/blocks/meteor_shield
 loot give @s loot galactipack:i/blocks/space_farm
 
 # Rockets
-loot give @s loot galactipack:is/rocket
+loot give @s loot galactipack:is/rockets
 
-# Creative only (op)
-loot give @s[gamemode=creative] loot galactipack:is/creative
+# Creative
+loot give @s loot galactipack:is/creative

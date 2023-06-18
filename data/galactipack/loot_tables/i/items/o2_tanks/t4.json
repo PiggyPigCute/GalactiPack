@@ -16,7 +16,7 @@
 							},
 							"ops": [
 								{
-									"source": "all.o2.tank.4.tag",
+									"source": "data.o2.tank.4.tag",
 									"target": "{}",
 									"op": "merge"
 								}

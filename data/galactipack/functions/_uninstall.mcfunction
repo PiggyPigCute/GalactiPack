@@ -13,7 +13,7 @@ scoreboard objectives remove galactipack.data
 scoreboard objectives remove galactipack.dimension
 
 # Storages
-data remove storage galactipack:items all
+data remove storage galactipack:items data
 data remove storage galactipack:use Crating
 
 datapack disable "file/GalactiPack"
