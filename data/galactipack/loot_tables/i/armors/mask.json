@@ -16,7 +16,7 @@
 							},
 							"ops": [
 								{
-									"source": "data.o2.mask.tag",
+									"source": "data.o2_mask.tag",
 									"target": "{}",
 									"op": "merge"
 								}

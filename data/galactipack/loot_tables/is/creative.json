@@ -14,7 +14,7 @@
 			"entries": [
 				{
 					"type": "loot_table",
-					"name": "galactipack:i/items/o2_tank/creative"
+					"name": "galactipack:i/items/o2_tanks/creative"
 				}
 			]
 		}

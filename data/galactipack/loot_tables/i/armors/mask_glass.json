@@ -16,7 +16,7 @@
 							},
 							"ops": [
 								{
-									"source": "data.o2.mask_glass.tag",
+									"source": "data.o2_mask_glass.tag",
 									"target": "{}",
 									"op": "merge"
 								}

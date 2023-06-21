@@ -16,7 +16,7 @@
 							},
 							"ops": [
 								{
-									"source": "data.o2.machine.dilator.tag",
+									"source": "data.o2_dilator.tag",
 									"target": "{}",
 									"op": "merge"
 								}

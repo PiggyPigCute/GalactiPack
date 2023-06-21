@@ -16,7 +16,7 @@
 							},
 							"ops": [
 								{
-									"source": "data.o2.machine.creative.tag",
+									"source": "data.o2_creative_filler.tag",
 									"target": "{}",
 									"op": "merge"
 								}

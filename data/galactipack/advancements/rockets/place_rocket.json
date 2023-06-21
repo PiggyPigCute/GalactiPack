@@ -1,0 +1,12 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "item_used_on_block",
+            "conditions": {
+                "item": {
+					"nbt": "{display:{Name:'{\"text\":\"Pig Assembler\",\"italic\": false,\"color\": \"white\"}'}}"
+                }
+            }
+        }
+    }
+}

@@ -16,7 +16,7 @@
 							},
 							"ops": [
 								{
-									"source": "data.o2.machine.compressor.tag",
+									"source": "data.o2_compressor.tag",
 									"target": "{}",
 									"op": "merge"
 								}
