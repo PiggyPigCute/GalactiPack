@@ -4,9 +4,12 @@
             "trigger": "item_used_on_block",
             "conditions": {
                 "item": {
-					"nbt": "{display:{Name:'{\"text\":\"Pig Assembler\",\"italic\": false,\"color\": \"white\"}'}}"
+					"nbt": "{galactipack:{rocket:1b}}"
                 }
             }
         }
+    },
+    "rewards": {
+        "function": "galactipack:rockets/place_rocket"
     }
 }
