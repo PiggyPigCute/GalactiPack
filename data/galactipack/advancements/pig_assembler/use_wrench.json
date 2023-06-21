@@ -14,7 +14,7 @@
 						"blocks": [
 							"minecraft:barrel"
 						],
-						"nbt": "{CustomName:'{\"color\":\"black\",\"text\":\"Pig Assembler\"}'}"
+						"nbt": "{CustomName:'{\"translate\":\"galactipack.block.pig_assembler\"}'}"
 					}
 				}
 			}

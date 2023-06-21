@@ -7,7 +7,7 @@
 					"items": [
 						"barrel"
 					],
-					"nbt": "{display:{Name:'{\"text\":\"Pig Assembler\",\"italic\": false,\"color\": \"white\"}'}}"
+					"nbt": "{ctc:{from:\"piggypig:galactipack\",id:\"pig_assembler\"}}"
 				}
 			}
 		}

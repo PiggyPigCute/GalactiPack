@@ -5,7 +5,7 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "galactipack:i/rocket/t1"
+                    "name": "galactipack:i/rockets/t1"
                 }
             ]
         },
@@ -14,7 +14,7 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "galactipack:i/rocket/t2"
+                    "name": "galactipack:i/rockets/t2"
                 }
             ]
         }
