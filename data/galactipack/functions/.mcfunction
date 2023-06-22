@@ -14,6 +14,7 @@ tellraw @s {"text":"You are using the Galactipack datapack","color":"yellow","cl
 #define score_holder #temp
 #define score_holder #random
 #define score_holder #big_prime
+#define score_holder #count_of
 #define entity @a[tag=convention.debug,distance=..3]
 
 #gp debug

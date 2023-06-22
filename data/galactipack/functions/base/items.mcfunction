@@ -61,11 +61,11 @@ data modify storage galactipack:items data.o2_tank.t6 set value {      tag:{Cust
 
 
 
-
+############### A SUPPRIMER
 ## Crafts
 
 # Pig Assembler
-data modify storage galactipack:items data.crafts.pig_assembler.rocket_t1 set value [{Count:1b,Slot:0b,id:"minecraft:gunpowder"},{Count:1b,Slot:1b,tag:{ctc:{id:"iron_plate"}}},{Count:1b,Slot:2b,tag:{ctc:{id:"iron_plate"}}},{Count:1b,Slot:3b,tag:{ctc:{id:"copper_plate"}}},{Count:1b,Slot:4b,tag:{ctc:{id:"copper_plate"}}},{Count:1b,Slot:10b,tag:{galactipack:{rocket_engine:1b}}},{Count:1b,Slot:11b,tag:{ctc:{id:"copper_plate"}}},{Count:1b,Slot:14b,tag:{ctc:{id:"copper_plate"}}},{Count:1b,Slot:15b,tag:{galactipack:{nose_cone:1b}}},{Count:1b,Slot:18b,id:"minecraft:gunpowder"},{Count:1b,Slot:19b,tag:{ctc:{id:"iron_plate"}}},{Count:1b,Slot:20b,tag:{ctc:{id:"iron_plate"}}},{Count:1b,Slot:21b,tag:{ctc:{id:"copper_plate"}}},{Count:1b,Slot:22b,tag:{ctc:{id:"copper_plate"}}}]
+#data modify storage galactipack:items data.crafts.pig_assembler.rocket_t1 set value [{Count:1b,Slot:0b,id:"minecraft:gunpowder"},{Count:1b,Slot:1b,tag:{ctc:{id:"iron_plate"}}},{Count:1b,Slot:2b,tag:{ctc:{id:"iron_plate"}}},{Count:1b,Slot:3b,tag:{ctc:{id:"copper_plate"}}},{Count:1b,Slot:4b,tag:{ctc:{id:"copper_plate"}}},{Count:1b,Slot:10b,tag:{galactipack:{rocket_engine:1b}}},{Count:1b,Slot:11b,tag:{ctc:{id:"copper_plate"}}},{Count:1b,Slot:14b,tag:{ctc:{id:"copper_plate"}}},{Count:1b,Slot:15b,tag:{galactipack:{nose_cone:1b}}},{Count:1b,Slot:18b,id:"minecraft:gunpowder"},{Count:1b,Slot:19b,tag:{ctc:{id:"iron_plate"}}},{Count:1b,Slot:20b,tag:{ctc:{id:"iron_plate"}}},{Count:1b,Slot:21b,tag:{ctc:{id:"copper_plate"}}},{Count:1b,Slot:22b,tag:{ctc:{id:"copper_plate"}}}]
 
 
 

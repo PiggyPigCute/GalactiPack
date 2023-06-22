@@ -5,14 +5,14 @@
 # as: player
 # at: pig_assembler
 
-scoreboard players set #craft_detected galactipack.data 1
-data modify storage galactipack:main Items.save set from block ~ ~ ~ Items
+scoreboard players set #craft_detected galactipack.data 0
+data modify storage galactipack:main Items set from block ~ ~ ~ Items
+scoreboard players set #count_of galactipack.data 0
+execute store result score #count_of galactipack.data run data get storage galactipack:main Items
 
 # rocket t1
-execute if score #craft_detected galactipack.data matches 1 run function galactipack:pig_assembler/craft/craft/rocket_t1
+execute if score #count_of galactipack.data matches 14 if score #craft_detected galactipack.data matches 0 run function galactipack:pig_assembler/craft/rocket_t1/check
 
-# rocket t2
-execute if score #craft_detected galactipack.data matches 1 run function galactipack:pig_assembler/craft/craft/rocket_t2
+execute if score #craft_detected galactipack.data matches 1 run data modify block ~ ~ ~ Items set from storage galactipack:main Items
 
-# rocket t3
-execute if score #craft_detected galactipack.data matches 1 run function galactipack:pig_assembler/craft/craft/rocket_t3
+data remove storage galactipack:main Items
