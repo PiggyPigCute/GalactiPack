@@ -2,22 +2,13 @@
 
 # function that give alle the items (executed by the user)
 
-# Items
-loot give @s loot galactipack:i/items/wrench
-loot give @s loot galactipack:is/materials
-#o2
-loot give @s loot galactipack:i/armors/mask
-loot give @s loot galactipack:is/o2_tanks
-loot give @s loot galactipack:is/o2_machines
 
-# Blocks
-loot give @s loot galactipack:i/blocks/pig_assembler
-loot give @s loot galactipack:i/blocks/lpc
-loot give @s loot galactipack:i/blocks/meteor_shield
-loot give @s loot galactipack:i/blocks/space_farm
+setblock ~ ~ ~ red_shulker_box{CustomName:'{"translate":"galactipack.shulker_give.materials","italic":false}'}
+setblock ~1 ~ ~ blue_shulker_box{CustomName:'{"translate":"galactipack.shulker_give.o2","italic":false}'}
+setblock ~2 ~ ~ black_shulker_box{CustomName:'{"translate":"galactipack.shulker_give.blocks_rockets_utils","italic":false}'}
 
-# Rockets
-loot give @s loot galactipack:is/rockets
+loot insert ~ ~ ~ loot galactipack:is/materials
+loot insert ~1 ~ ~ loot galactipack:is/o2
+loot insert ~2 ~ ~ loot galactipack:is/blocks_rockets_utils
 
-# Creative
-loot give @s loot galactipack:is/creative
+
