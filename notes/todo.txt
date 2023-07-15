@@ -1,6 +1,7 @@
 dimensions:
 	mars:
 		minerais
+		chest dans les satelites
 	Asteroids:
 		minerais
 	Venus
