@@ -3,6 +3,7 @@
 	mask work again
 	spreader now recalcul the oxygen zone when a wall is broken
 	slowfall + jumpboost now with infinite duration
+	repare craft o2 tank t2-t6 + o2 compressor + o2 spreader + o2 cleaner + o2 dilator + o2 mask
 
 older:
 	space farm:

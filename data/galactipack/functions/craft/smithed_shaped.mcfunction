@@ -13,7 +13,7 @@
 	##execute store result score @s smithed.data if entity @s[scores={smithed.data=0}] if data storage smithed.crafter:main root.temp{crafting_input:{0:[{Slot:0b},{Slot:1b},{Slot:2b}],1:[{Slot:0b},{Slot:1b},{Slot:2b}],2:[{Slot:0b},{Slot:1b},{Slot:2b}]}} run loot replace block ~ ~ ~ container.16 loot galactipack:i/blocks/meteor_shield
 
 # o2 mask
-##execute store result score @s smithed.data if entity @s[scores={smithed.data=0}] if data storage smithed.crafter:main root.temp{crafting_input:{0:[{Slot:0b},{Slot:1b},{Slot:2b}],1:[{Slot:0b},{Slot:1b},{Slot:2b}],2:[{Slot:0b},{Slot:1b},{Slot:2b}]}} run loot replace block ~ ~ ~ container.16 loot galactipack:i/o2/mask
+##execute store result score @s smithed.data if entity @s[scores={smithed.data=0}] if data storage smithed.crafter:main root.temp{crafting_input:{0:[{Slot:0b},{Slot:1b},{Slot:2b}],1:[{Slot:0b},{Slot:1b},{Slot:2b}],2:[{Slot:0b},{Slot:1b},{Slot:2b}]}} run loot replace block ~ ~ ~ container.16 loot galactipack:i/armors/mask
 
 # o2 tanks
 	#t1
@@ -37,8 +37,8 @@
 	#generator
 	execute store result score @s smithed.data if entity @s[scores={smithed.data=0}] if data storage smithed.crafter:main root.temp{crafting_input:{0:[{Slot:0b,tag:{ctc:{id:"red_meteor_plate"}}},{Slot:1b,id:"minecraft:glass_pane"},{Slot:2b,tag:{ctc:{id:"red_meteor_plate"}}}],1:[{Slot:0b,tag:{ctc:{from:"piggypig:galactipack",id:"o2_collector"}}},{Slot:1b,id:"minecraft:air"},{Slot:2b,tag:{ctc:{from:"piggypig:galactipack",id:"o2_collector"}}}],2:[{Slot:0b,tag:{ctc:{id:"red_meteor_plate"}}},{Slot:1b,id:"minecraft:grass_block"},{Slot:2b,tag:{ctc:{id:"red_meteor_plate"}}}]}} run loot replace block ~ ~ ~ container.16 loot galactipack:i/blocks/o2/generator
 	#spreader
-	##execute store result score @s smithed.data if entity @s[scores={smithed.data=0}] if data storage smithed.crafter:main root.temp{crafting_input:{0:[{Slot:0b},{Slot:1b},{Slot:2b}],1:[{Slot:0b},{Slot:1b},{Slot:2b}],2:[{Slot:0b},{Slot:1b},{Slot:2b}]}} run loot replace block ~ ~ ~ container.16 loot galactipack:i/o2/machine/spreader
+	##execute store result score @s smithed.data if entity @s[scores={smithed.data=0}] if data storage smithed.crafter:main root.temp{crafting_input:{0:[{Slot:0b},{Slot:1b},{Slot:2b}],1:[{Slot:0b},{Slot:1b},{Slot:2b}],2:[{Slot:0b},{Slot:1b},{Slot:2b}]}} run loot replace block ~ ~ ~ container.16 loot galactipack:i/blocks/o2/spreader
 	#cleaner
-	##execute store result score @s smithed.data if entity @s[scores={smithed.data=0}] if data storage smithed.crafter:main root.temp{crafting_input:{0:[{Slot:0b},{Slot:1b},{Slot:2b}],1:[{Slot:0b},{Slot:1b},{Slot:2b}],2:[{Slot:0b},{Slot:1b},{Slot:2b}]}} run loot replace block ~ ~ ~ container.16 loot galactipack:i/o2/machine/cleaner
+	##execute store result score @s smithed.data if entity @s[scores={smithed.data=0}] if data storage smithed.crafter:main root.temp{crafting_input:{0:[{Slot:0b},{Slot:1b},{Slot:2b}],1:[{Slot:0b},{Slot:1b},{Slot:2b}],2:[{Slot:0b},{Slot:1b},{Slot:2b}]}} run loot replace block ~ ~ ~ container.16 loot galactipack:i/blocks/o2/cleaner
 	#dilator
-	##execute store result score @s smithed.data if entity @s[scores={smithed.data=0}] if data storage smithed.crafter:main root.temp{crafting_input:{0:[{Slot:0b},{Slot:1b},{Slot:2b}],1:[{Slot:0b},{Slot:1b},{Slot:2b}],2:[{Slot:0b},{Slot:1b},{Slot:2b}]}} run loot replace block ~ ~ ~ container.16 loot galactipack:i/o2/machine/dilator
+	##execute store result score @s smithed.data if entity @s[scores={smithed.data=0}] if data storage smithed.crafter:main root.temp{crafting_input:{0:[{Slot:0b},{Slot:1b},{Slot:2b}],1:[{Slot:0b},{Slot:1b},{Slot:2b}],2:[{Slot:0b},{Slot:1b},{Slot:2b}]}} run loot replace block ~ ~ ~ container.16 loot galactipack:i/blocks/o2/dilator

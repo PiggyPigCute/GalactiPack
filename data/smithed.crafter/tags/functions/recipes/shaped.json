@@ -1,6 +1,6 @@
 {
-  "values": [
-    "smithed.crafter:v0.1.0/_version_check/recipes/shaped",
-	"galactipack:craft/smithed_shaped"
-  ]
+	"values": [
+		"smithed.crafter:v0.1.0/_version_check/recipes/shaped",
+		"galactipack:craft/smithed_shaped"
+	]
 }
