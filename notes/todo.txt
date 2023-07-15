@@ -16,9 +16,6 @@ fusées:
 	t2
 	t3
 	t4
-o2:
-	masque:
-		se transforme quand sur la tête
 crafts:
 	o2:
 		machines:
