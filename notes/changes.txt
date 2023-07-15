@@ -1,4 +1,9 @@
-space farm:
+15.17.23:
+	now using smithed.custom_block
+	mask work again
+
+older:
+	space farm:
 	pattern:
 		MGM
 		IDI
@@ -10,7 +15,7 @@ space farm:
 		W: minecraft:water_bucker
 		I: iron_plate
 		M: red_meteor_plate
-o2 tank t2:
+	o2 tank t2:
 	pattern:
 		MGM
 		TDT
@@ -20,7 +25,7 @@ o2 tank t2:
 		D: minecraft:diamond
 		T: galactipack:o2_tank_t1
 		M: red_meteor_plate
-o2 tank t3:
+	o2 tank t3:
 	pattern:
 		MGM
 		TOT
@@ -30,7 +35,7 @@ o2 tank t3:
 		O: minecraft:obsidian
 		T: galactipack:o2_tank_t2
 		M: green_meteor_plate
-o2 tank t4:
+	o2 tank t4:
 	pattern:
 		MGM
 		TAT
@@ -40,7 +45,7 @@ o2 tank t4:
 		A: minecraft:ancient_debris
 		T: galactipack:o2_tank_t3
 		M: green_meteor_plate
-o2 tank t5:
+	o2 tank t5:
 	pattern:
 		MGM
 		TNT
@@ -50,7 +55,7 @@ o2 tank t5:
 		N: minecraft:netherite_ingot
 		T: galactipack:o2_tank_t4
 		M: blue_meteor_plate
-o2 tank t6:
+	o2 tank t6:
 	pattern:
 		MGM
 		TNT
