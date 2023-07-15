@@ -1,6 +1,7 @@
 15.17.23:
 	now using smithed.custom_block
 	mask work again
+	spreader now recalcul the oxygen zone when a wall is broken
 
 older:
 	space farm:

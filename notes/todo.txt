@@ -17,8 +17,6 @@ fusées:
 	t3
 	t4
 o2:
-	spreader:
-		actualiser la pièce lors qu'un mur est cassé
 	masque:
 		se transforme quand sur la tête
 crafts:

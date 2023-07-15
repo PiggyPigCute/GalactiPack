@@ -2,7 +2,7 @@
 
 tag @s remove galactipack.o2.last.2
 
-particle dust 1 1 1 1
+execute unless score #no_particle galactipack.data matches 1 run particle dust 1 1 1 1
 
 execute positioned ~ ~ ~1 unless entity @e[type=marker,distance=...5,limit=1,sort=nearest,tag=galactipack.o2] if block ~ ~ ~ #galactipack:space_non_soid run summon marker ~ ~ ~ {Tags:["galactipack.o2", "galactipack.o2.last", "galactipack.o2.last.2"]}
 execute positioned ~ ~1 ~ unless entity @e[type=marker,distance=...5,limit=1,sort=nearest,tag=galactipack.o2] if block ~ ~ ~ #galactipack:space_non_soid run summon marker ~ ~ ~ {Tags:["galactipack.o2", "galactipack.o2.last", "galactipack.o2.last.2"]}
