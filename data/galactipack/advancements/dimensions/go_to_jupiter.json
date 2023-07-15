@@ -1,0 +1,13 @@
+{
+	"criteria": {
+		"jupiter": {
+			"trigger": "changed_dimension",
+			"conditions": {
+				"to": "galactipack:jupiter"
+			}
+		}
+	},
+	"rewards": {
+		"function": "galactipack:dimensions/go_to_jupiter"
+	}
+}

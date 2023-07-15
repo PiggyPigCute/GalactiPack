@@ -30,5 +30,4 @@ bugs:
 	block's texture are black
 
 update:
-	utiliser effect infinit
 	update itemio 0.3.0 -> 0.5.1
