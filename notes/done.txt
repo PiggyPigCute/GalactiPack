@@ -2,6 +2,8 @@ dimensions:
 	moon
 	mars:
 		floor
+	Asteroids:
+		floor
 crafts:
 	pig assembler
 	lpc

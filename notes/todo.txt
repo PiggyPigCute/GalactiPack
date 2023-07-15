@@ -1,7 +1,8 @@
 dimensions:
 	mars:
 		minerais
-	Asteroids
+	Asteroids:
+		minerais
 	Venus
 	Jupiter
 	Saturn
@@ -14,6 +15,11 @@ fusées:
 	t2
 	t3
 	t4
+o2:
+	spreader:
+		actualiser la pièce lors qu'un mur est cassé
+	masque:
+		se transforme quand sur la tête
 crafts:
 	o2:
 		machines:
@@ -25,7 +31,8 @@ crafts:
 bugs:
 	smelting custom stuff
 	rocket don't place
-	block's texture is black
+	block's texture are black
 
-update to 1.19.4:
-	update libraries
+update:
+	utiliser effect infinit
+	update itemio 0.3.0 -> 0.5.1

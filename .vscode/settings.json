@@ -1,0 +1,21 @@
+{
+	"files.exclude": {
+		"**/desktop.ini": true,
+		"temp/.gitkeep": true,
+		"**/__pycache__/": true,
+		"mklinker.bat": true,
+		"LICENSE": true,
+		".vscode/": true
+	},
+	"editor.insertSpaces": false,
+	"editor.tabSize": 4,
+	"editor.detectIndentation": true,
+	"datapack.env.detectionDepth": 2,
+	"datapack.env.cmdVersion": "1.19.4",
+	"datapack.env.dataVersion": "1.19.4",
+	"[mcfunction]": {
+		"editor.insertSpaces": true,
+		"editor.tabSize": 4,
+		"editor.detectIndentation": true
+	}
+}

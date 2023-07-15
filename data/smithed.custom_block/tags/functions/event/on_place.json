@@ -1,5 +1,6 @@
 {
     "values":[
+		"galactipack:base/smithed.custom_block",
         "#smithed.crafter:block/place"
     ]
 }
