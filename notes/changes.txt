@@ -1,10 +1,11 @@
+16.17.26:
+	update itemio 0.3->0.5.3
 15.17.23:
 	now using smithed.custom_block
 	mask work again
 	spreader now recalcul the oxygen zone when a wall is broken
 	slowfall + jumpboost now with infinite duration
 	repare craft o2 tank t2-t6 + o2 compressor + o2 spreader + o2 cleaner + o2 dilator + o2 mask
-
 older:
 	space farm:
 		pattern:

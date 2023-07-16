@@ -35,7 +35,7 @@ def compress_file(path: str):
 				for a in text: out += a.strip()
 			case "mcfunction":
 				for a in text:
-					b = a.strip().replace("  ","").replace("\t","")
+					b = a.strip().replace("  ","").replace("\t","").replace(": ",":").replace("} ","}").replace("] ","]")
 					if b != "" and b[0] != "#" :out += b + "\n"
 				out = out[:-1]
 			case _:

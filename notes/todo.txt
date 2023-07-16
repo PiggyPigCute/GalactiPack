@@ -29,5 +29,3 @@ bugs:
 	rocket don't place
 	block's texture are black
 
-update:
-	update itemio 0.3.0 -> 0.5.1
