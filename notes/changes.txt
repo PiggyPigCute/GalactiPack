@@ -1,5 +1,8 @@
 16.17.26:
 	update itemio 0.3->0.5.3
+	o2 compressor don't work with dilated o2 tank 
+	o2 cleaner divide o2 by 2 inside an o2 tank
+	o2 dilator now use a multiplication instead of an addition to double the o2
 15.17.23:
 	now using smithed.custom_block
 	mask work again

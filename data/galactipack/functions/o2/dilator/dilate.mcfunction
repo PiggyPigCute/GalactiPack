@@ -6,7 +6,7 @@ execute store result score #temp1 galactipack.data run data get storage galactip
 data modify storage galactipack:data temp.galactipack.o2_tank.dilated set value true
 
 #o2
-scoreboard players operation #temp galactipack.data += #temp galactipack.data
+scoreboard players operation #temp galactipack.data *= #2 galactipack.data
 execute if score #temp galactipack.data > #temp1 galactipack.data run scoreboard players operation #temp galactipack.data = #temp1 galactipack.data
 execute store result storage galactipack:data temp.galactipack.o2_tank.now int 1 run scoreboard players get #temp galactipack.data
 

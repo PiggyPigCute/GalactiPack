@@ -3,7 +3,6 @@
 # Convention, c'est écrit dans le nom du tag en plus mdr
 tag _PiggyPig_ add convention.debug
 tag Rignchen add convention.debug
-tag Onyx_T74 add convention.debug
 
 # Modifie la version, je ne la connais pas :)
 tellraw @a[tag=convention.debug] {"text":"[Loaded GalactiPack v1.0.0]","italic":false,"color":"green"}
