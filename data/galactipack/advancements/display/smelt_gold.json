@@ -2,7 +2,7 @@
 	"display": {
 		"icon": {
 			"item": "minecraft:command_block",
-			"nbt": "{CustomModelData:8977004}"
+			"nbt": "{CustomModelData:8977003}"
 		},
 		"title": "Shiny!",
 		"description": "Flatten gold in a Blast Furnace"

@@ -1,0 +1,18 @@
+{
+	"display": {
+		"title": "PiggyPig & Rignchen",
+		"description": "",
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner:{Name:\"PiggyPig & Rignchen\",Properties:{textures:[{Value: \"ewogICJ0aW1lc3RhbXAiIDogMTY5MDg1MDM4MTc2NywKICAicHJvZmlsZUlkIiA6ICJjNDRlMGYxNWIwN2I0OTI1OWY2NWJkMzZmZTRkY2Y5ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJfUGlnZ3lQaWdfIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzVlZDMxYzJkZGE1MzAwMjgwZmFiOGY1OWY0NzhhZWE5ZDM3NTdhZDIxNGYwMzFjODY2Y2NiYWZiOGZmZTgyODYiCiAgICB9CiAgfQp9\"}]}}}"
+		},
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "global:root",
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

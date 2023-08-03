@@ -2,7 +2,7 @@
 	"display": {
 		"icon": {
 			"item": "minecraft:command_block",
-			"nbt": "{CustomModelData:8977003}"
+			"nbt": "{CustomModelData:8977002}"
 		},
 		"title": "Strong.",
 		"description": "Press iron in a Blast Furnace"

@@ -2,14 +2,14 @@
 	"display": {
 		"icon": {
 			"item": "minecraft:tuff",
-			"nbt": "{CustomModelData:8977000}"
+			"nbt": "{CustomModelData:8977001}"
 		},
 		"title": "GalactiPack",
 		"description": "Space Exploration DataPack",
 		"show_toast": false,
 		"announce_to_chat": false
 	},
-	"parent": "global:piggypig",
+	"parent": "global:piggypig_rignchen",
 	"criteria": {
 		"trigger": {
 			"trigger": "minecraft:tick"

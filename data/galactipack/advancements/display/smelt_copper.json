@@ -2,7 +2,7 @@
 	"display": {
 		"icon": {
 			"item": "minecraft:command_block",
-			"nbt": "{CustomModelData:8977002}"
+			"nbt": "{CustomModelData:8977001}"
 		},
 		"title": "Worth?",
 		"description": "Smelt copper in a Blast Furnace"

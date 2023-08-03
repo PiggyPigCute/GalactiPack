@@ -19,6 +19,7 @@ schedule function galactipack:base/sched_120s 120s replace
 scoreboard objectives add galactipack.data dummy
 scoreboard objectives add galactipack.o2 dummy
 scoreboard objectives add galactipack.dimension dummy
+scoreboard objectives add galactipack.lava dummy
 scoreboard objectives add galactipack.death deathCount
 # Set scores
 scoreboard players set #2 galactipack.data 2
