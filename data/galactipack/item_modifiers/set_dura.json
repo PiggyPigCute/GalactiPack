@@ -1,6 +1,6 @@
 [
-    {
-        "function": "minecraft:copy_nbt",
+	{
+		"function": "minecraft:copy_nbt",
 		"source": {
 			"type": "minecraft:storage",
 			"source": "galactipack:data"
@@ -12,5 +12,5 @@
 				"op":"replace"
 			}
 		]
-    }
+	}
 ]
