@@ -9,6 +9,9 @@ execute if data storage smithed.custom_block:main blockApi{id:"o2_spreader"     
 execute if data storage smithed.custom_block:main blockApi{id:"o2_collector"      } run function galactipack:o2/collector/place/replace
 execute if data storage smithed.custom_block:main blockApi{id:"o2_generator"      } run function galactipack:o2/generator/place/replace
 execute if data storage smithed.custom_block:main blockApi{id:"o2_creative_filler"} run function galactipack:o2/creative/place/replace
+
 execute if data storage smithed.custom_block:main blockApi{id:"rocket_t1"         } run function galactipack:rockets/place/t1
 execute if data storage smithed.custom_block:main blockApi{id:"rocket_t2"         } run function galactipack:rockets/place/t2
+execute if data storage smithed.custom_block:main blockApi{id:"rocket_t3"         } run function galactipack:rockets/place/t3
+execute if data storage smithed.custom_block:main blockApi{id:"rocket_t4"         } run function galactipack:rockets/place/t4
 

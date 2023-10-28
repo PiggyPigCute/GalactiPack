@@ -11,11 +11,13 @@ dimensions:
 	Neptune
 	Mercury
 	Sun
+
 fusées:
 	t1
 	t2
 	t3
 	t4
+
 crafts:
 	o2:
 		machines:
@@ -24,8 +26,21 @@ crafts:
 			dilator
 		mask
 	meteor shield
+textures:
+	space farm
+	meteor shield
+	rocket t2/+
+	o2 compressor
+	o2 collector
+	o2 dilator
+	o2 cleaner
+	o2 spreader
+	creative o2 filler
+	o2 tank
+	blue meteor ingot
+	blue meteor plate
+
 bugs:
 	smelting custom stuff
-	rocket don't place
 	block's texture are black
 
