@@ -1,1 +1,6 @@
-{"values":["itemio:v0.7.2/calls/filters/repart"]}
+{
+	"values":[
+		"itemio:v0.7.2/calls/filters/repart",
+		"galactipack:base/itemio_filters/"
+	]
+}
