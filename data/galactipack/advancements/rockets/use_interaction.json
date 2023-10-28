@@ -4,7 +4,8 @@
 			"trigger": "player_interacted_with_entity",
 			"conditions": {
 				"entity": {
-					"nbt": "{Tags:[galactipack.interaction.rocket]}"
+					"type": "minecraft:interaction",
+					"nbt": "{Tags:[\"galactipack.interaction.rocket\"]}"
 				}
 			}
 		}
