@@ -1,14 +1,12 @@
 {
-    "values": [
+	"values": [
 		"#galactipack:air",
-		
 		"torch",
 		"wall_torch",
 		"soul_torch",
 		"soul_wall_torch",
 		"redstone_torch",
 		"redstone_wall_torch",
-
 		"#pressure_plates",
 		"#buttons",
 		"redstone_wire",

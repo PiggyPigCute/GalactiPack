@@ -1,6 +1,6 @@
 {
 	"criteria": {
-		"hoe":{
+		"hoe": {
 			"trigger": "item_used_on_block",
 			"conditions": {
 				"location": {
@@ -12,7 +12,7 @@
 				}
 			}
 		},
-		"block":{
+		"block": {
 			"trigger": "placed_block",
 			"conditions": {
 				"block": "farmland"

@@ -9,7 +9,7 @@
 			{
 				"source": "temp",
 				"target": "Damage",
-				"op":"replace"
+				"op": "replace"
 			}
 		]
 	}

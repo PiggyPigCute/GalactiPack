@@ -9,7 +9,7 @@
 			{
 				"source": "temp",
 				"target": "galactipack.o2_tank",
-				"op":"merge"
+				"op": "merge"
 			}
 		]
 	}

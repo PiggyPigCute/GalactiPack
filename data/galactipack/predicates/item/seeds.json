@@ -1,7 +1,7 @@
 {
 	"condition": "minecraft:entity_properties",
 	"entity": "this",
-	"predicate":{
+	"predicate": {
 		"equipment": {
 			"head": {
 				"tag": "galactipack:seeds"

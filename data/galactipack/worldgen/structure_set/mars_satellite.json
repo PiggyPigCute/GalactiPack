@@ -1,14 +1,14 @@
 {
-    "structures": [
-        {
-            "structure": "galactipack:mars_satellite",
-            "weight": 1
-        }
-    ],
-    "placement": {
-        "type": "minecraft:random_spread",
-        "salt": 1451108541,
-        "spacing": 34,
-        "separation": 8
-    }
+	"structures": [
+		{
+			"structure": "galactipack:mars_satellite",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"type": "minecraft:random_spread",
+		"salt": 1451108541,
+		"spacing": 34,
+		"separation": 8
+	}
 }

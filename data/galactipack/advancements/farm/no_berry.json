@@ -1,12 +1,12 @@
 {
 	"criteria": {
-		"sweat":{
+		"sweat": {
 			"trigger": "placed_block",
 			"conditions": {
 				"block": "sweet_berry_bush"
 			}
 		},
-		"glow":{
+		"glow": {
 			"trigger": "placed_block",
 			"conditions": {
 				"block": "cave_vines"
