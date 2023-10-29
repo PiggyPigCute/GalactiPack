@@ -1,9 +1,18 @@
-16.17.26:
+29.10.23:
+	blocks can now be rotated when placed
+28.10.23:
+	output now uses itemio filtre
+	rocket can be removed, player can enter it, rocket can't be removed if player is inside
+27.10.23:
+	update itemio 0.5.3->0.7.2
+24.10.23:
+	dilator now take tank from compressor if 50%+ full and compressor above dilator
+16.07.23:
 	update itemio 0.3->0.5.3
 	o2 compressor don't work with dilated o2 tank 
 	o2 cleaner divide o2 by 2 inside an o2 tank
 	o2 dilator now use a multiplication instead of an addition to double the o2
-15.17.23:
+15.07.23:
 	now using smithed.custom_block
 	mask work again
 	spreader now recalcul the oxygen zone when a wall is broken
