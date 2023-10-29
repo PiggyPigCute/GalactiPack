@@ -6,7 +6,11 @@
 		"offsetZ": -1,
 		"predicate": {
 			"block": {
-				"tag": "galactipack:launch_pad_slabs"
+				"tag": "galactipack:launch_pad_slabs",
+				"state": {
+					"type": "bottom",
+					"waterlogged": false
+				}
 			}
 		}
 	},
@@ -17,7 +21,11 @@
 		"offsetZ": -1,
 		"predicate": {
 			"block": {
-				"tag": "galactipack:launch_pad_slabs"
+				"tag": "galactipack:launch_pad_slabs",
+				"state": {
+					"type": "bottom",
+					"waterlogged": false
+				}
 			}
 		}
 	},
@@ -28,7 +36,11 @@
 		"offsetZ": -1,
 		"predicate": {
 			"block": {
-				"tag": "galactipack:launch_pad_slabs"
+				"tag": "galactipack:launch_pad_slabs",
+				"state": {
+					"type": "bottom",
+					"waterlogged": false
+				}
 			}
 		}
 	},
@@ -39,7 +51,11 @@
 		"offsetZ": 0,
 		"predicate": {
 			"block": {
-				"tag": "galactipack:launch_pad_slabs"
+				"tag": "galactipack:launch_pad_slabs",
+				"state": {
+					"type": "bottom",
+					"waterlogged": false
+				}
 			}
 		}
 	},
@@ -50,7 +66,11 @@
 		"offsetZ": 0,
 		"predicate": {
 			"block": {
-				"tag": "galactipack:launch_pad_slabs"
+				"tag": "galactipack:launch_pad_slabs",
+				"state": {
+					"type": "bottom",
+					"waterlogged": false
+				}
 			}
 		}
 	},
@@ -61,7 +81,11 @@
 		"offsetZ": 0,
 		"predicate": {
 			"block": {
-				"tag": "galactipack:launch_pad_slabs"
+				"tag": "galactipack:launch_pad_slabs",
+				"state": {
+					"type": "bottom",
+					"waterlogged": false
+				}
 			}
 		}
 	},
@@ -72,7 +96,11 @@
 		"offsetZ": 1,
 		"predicate": {
 			"block": {
-				"tag": "galactipack:launch_pad_slabs"
+				"tag": "galactipack:launch_pad_slabs",
+				"state": {
+					"type": "bottom",
+					"waterlogged": false
+				}
 			}
 		}
 	},
@@ -83,7 +111,11 @@
 		"offsetZ": 1,
 		"predicate": {
 			"block": {
-				"tag": "galactipack:launch_pad_slabs"
+				"tag": "galactipack:launch_pad_slabs",
+				"state": {
+					"type": "bottom",
+					"waterlogged": false
+				}
 			}
 		}
 	},
@@ -94,7 +126,11 @@
 		"offsetZ": 1,
 		"predicate": {
 			"block": {
-				"tag": "galactipack:launch_pad_slabs"
+				"tag": "galactipack:launch_pad_slabs",
+				"state": {
+					"type": "bottom",
+					"waterlogged": false
+				}
 			}
 		}
 	}
