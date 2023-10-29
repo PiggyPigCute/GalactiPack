@@ -1,4 +1,3 @@
-## called by cammand block
 ## function galactipack:farm/place/place
 
 execute summon item_display run function galactipack:farm/place/as_display

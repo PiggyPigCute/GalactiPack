@@ -1,4 +1,3 @@
-## called by cammand block
 ## function galactipack:o2/generator/place/place
 
 execute summon item_display run function galactipack:o2/generator/place/as_display

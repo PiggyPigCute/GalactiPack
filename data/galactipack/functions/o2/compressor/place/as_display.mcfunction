@@ -9,3 +9,5 @@ execute if dimension overworld run tag @s add galactipack.overworld
 execute if predicate galactipack:in_space run tag @s add galactipack.in_space
 
 function #itemio:calls/container/init
+function galactipack:base/rotate_block
+

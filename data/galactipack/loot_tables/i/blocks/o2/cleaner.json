@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:barrel",
+					"name": "minecraft:furnace",
 					"functions": [
 						{
 							"function": "minecraft:copy_nbt",

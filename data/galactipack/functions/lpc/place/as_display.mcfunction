@@ -4,3 +4,6 @@ data merge entity @s {item:{Count:1b,id:"stick",tag:{CustomModelData:8977004}},T
 data modify entity @s item.tag.itemio.ioconfig set from storage galactipack:itemio lpc
 scoreboard players set @s galactipack.lpc 0
 function #itemio:calls/container/init
+
+function galactipack:base/rotate_block
+
