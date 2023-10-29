@@ -7,7 +7,14 @@
 		"LICENSE": true,
 		"pack.png": true,
 		"pack.mcmeta": true,
-		
+
+		"data/smithed.*":true,
+		"data/minecraft":true,
+		"data/global":true,
+		"data/load/functions":true,
+		"data/load/tags/functions/_private":true,
+		"data/furnace_nbt_recipes":true,
+		"data/itemio":true,
 	},
 	"datapack.env.detectionDepth": 2,
 	"datapack.env.cmdVersion": "1.19.4",

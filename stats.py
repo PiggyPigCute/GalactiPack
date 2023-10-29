@@ -26,7 +26,7 @@ def surch(extension:list[str],path:str,function = None,exception = None):
 def max_linie(mcfunction):
 	global maxi, bigest, bad, total
 	out = 0
-	a = open(mcfunction,"r")
+	a = open(mcfunction,"r",encoding="utf-8")
 	try:
 		b = a.readlines()
 		a.close()
@@ -59,5 +59,4 @@ print("loot tables:" + str(surch(["json"],"data/galactipack/loot_tables",excepti
 print("plugin:" + str(surch(["json"],"data/galactipack/tags/functions")))
 if bad != []:print("/!\\ " + str(len(bad)) + " fonctions aren't comment: " + str(bad))
 if mt != []:print("/!\\ " + str(len(mt)) + " fonctions are empty: " + str(mt))
-if arrow:print("/!\\ PiggyPig a posé des <- dans le programme")
 input()
