@@ -40,7 +40,3 @@ textures:
 	blue meteor ingot
 	blue meteor plate
 
-bugs:
-	smelting custom stuff
-	block's texture are black
-

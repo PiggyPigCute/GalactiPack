@@ -1,3 +1,7 @@
+30.10.23:
+	update all lib (except itemio)
+	update functions to 1.20.2
+	add block brightness
 29.10.23:
 	blocks can now be rotated when placed
 	rocket don't drop in creative
