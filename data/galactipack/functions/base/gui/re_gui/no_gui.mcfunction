@@ -5,6 +5,11 @@
 
 data remove storage galactipack:data Items[{tag:{galactipack:{gui:1b}}}]
 clear @a[distance=..5] minecraft:light_gray_stained_glass_pane{galactipack:{gui:1b}}
-kill @e[type=item,distance=..5,limit=1,sort=nearest,nbt={Item:{tag:{galactipack:{gui:1b}}}}]
-data remove block ~ ~-1 ~ Items[{id:"minecraft:light_gray_stained_glass_pane",tag:{galactipack:{gui:1b}}}]
-data remove block ~ ~ ~-1 Items[{id:"minecraft:light_gray_stained_glass_pane",tag:{galactipack:{gui:1b}}}]
+kill @e[type=item,sort=nearest,nbt={Item:{tag:{galactipack:{gui:1b}}}}]
+
+execute positioned ~1 ~ ~ if block ~ ~ ~ #itemio:container run data remove block ~ ~ ~ Items[{ id:"minecraft:light_gray_stained_glass_pane",tag:{galactipack:{gui:1b}}}]
+execute positioned ~-1 ~ ~ if block ~ ~ ~ #itemio:container run data remove block ~ ~ ~ Items[{id:"minecraft:light_gray_stained_glass_pane",tag:{galactipack:{gui:1b}}}]
+execute positioned ~ ~1 ~ if block ~ ~ ~ #itemio:container run data remove block ~ ~ ~ Items[{ id:"minecraft:light_gray_stained_glass_pane",tag:{galactipack:{gui:1b}}}]
+execute positioned ~ ~-1 ~ if block ~ ~ ~ #itemio:container run data remove block ~ ~ ~ Items[{id:"minecraft:light_gray_stained_glass_pane",tag:{galactipack:{gui:1b}}}]
+execute positioned ~ ~ ~1 if block ~ ~ ~ #itemio:container run data remove block ~ ~ ~ Items[{ id:"minecraft:light_gray_stained_glass_pane",tag:{galactipack:{gui:1b}}}]
+execute positioned ~ ~ ~-1 if block ~ ~ ~ #itemio:container run data remove block ~ ~ ~ Items[{id:"minecraft:light_gray_stained_glass_pane",tag:{galactipack:{gui:1b}}}]

@@ -1,7 +1,7 @@
 ## function galactipack:lpc/place/place
 ## called by command block
 
-#don't loose the tank
+#don't loose the tank (run before itemio can do it)
 execute positioned ~ ~-1 ~ if block ~ ~ ~ hopper run data modify block ~ ~ ~ TransferCooldown set value 12
 
 execute summon item_display run function galactipack:lpc/place/as_display
