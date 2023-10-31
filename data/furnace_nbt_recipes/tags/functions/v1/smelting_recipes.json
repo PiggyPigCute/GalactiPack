@@ -1,6 +1,6 @@
 {
 	"values": [
-		"furnace_nbt_recipes:v1.0/calls/smelting_recipes",
+		"furnace_nbt_recipes:v1.2/calls/smelting_recipes",
 		"galactipack:craft/furnace/blast_and_furnace"
 	]
 }

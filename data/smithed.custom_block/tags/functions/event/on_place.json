@@ -1,9 +1,6 @@
 {
 	"values": [
-		"galactipack:base/smithed.custom_block",
-		{
-			"id": "#smithed.crafter:block/place",
-			"required": false
-		}
+		{"id": "#smithed.crafter:block/place","required": false},
+		"galactipack:base/smithed.custom_block"
 	]
 }

@@ -1,4 +1,10 @@
 {
+	"datapack.env.detectionDepth": 2,
+	"datapack.env.cmdVersion": "1.20.2",
+	"datapack.env.dataVersion": "1.20.2",
+	"editor.insertSpaces": true,
+	"editor.tabSize": 4,
+	"editor.detectIndentation": true,
 	"files.exclude": {
 		"**/desktop.ini": true,
 		"temp/.gitkeep": true,
@@ -15,11 +21,4 @@
 		"data/load/tags/functions/_private":true,
 		"data/furnace_nbt_recipes":true,
 		"data/itemio":true,
-	},
-	"datapack.env.detectionDepth": 2,
-	"datapack.env.cmdVersion": "1.19.4",
-	"datapack.env.dataVersion": "1.19.4",
-	"editor.insertSpaces": true,
-	"editor.tabSize": 4,
-	"editor.detectIndentation": true
-}
+}}
