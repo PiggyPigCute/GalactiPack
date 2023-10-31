@@ -17,6 +17,24 @@
 					"name": "galactipack:i/rockets/t2"
 				}
 			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "galactipack:i/rockets/t3"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "galactipack:i/rockets/t4"
+				}
+			]
 		}
 	]
 }

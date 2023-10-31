@@ -9,7 +9,7 @@
 				"tag": "galactipack:launch_pad_slabs",
 				"state": {
 					"type": "bottom",
-					"waterlogged": false
+					"waterlogged": "false"
 				}
 			}
 		}
@@ -24,7 +24,7 @@
 				"tag": "galactipack:launch_pad_slabs",
 				"state": {
 					"type": "bottom",
-					"waterlogged": false
+					"waterlogged": "false"
 				}
 			}
 		}
@@ -39,7 +39,7 @@
 				"tag": "galactipack:launch_pad_slabs",
 				"state": {
 					"type": "bottom",
-					"waterlogged": false
+					"waterlogged": "false"
 				}
 			}
 		}
@@ -54,7 +54,7 @@
 				"tag": "galactipack:launch_pad_slabs",
 				"state": {
 					"type": "bottom",
-					"waterlogged": false
+					"waterlogged": "false"
 				}
 			}
 		}
@@ -69,7 +69,7 @@
 				"tag": "galactipack:launch_pad_slabs",
 				"state": {
 					"type": "bottom",
-					"waterlogged": false
+					"waterlogged": "false"
 				}
 			}
 		}
@@ -84,7 +84,7 @@
 				"tag": "galactipack:launch_pad_slabs",
 				"state": {
 					"type": "bottom",
-					"waterlogged": false
+					"waterlogged": "false"
 				}
 			}
 		}
@@ -99,7 +99,7 @@
 				"tag": "galactipack:launch_pad_slabs",
 				"state": {
 					"type": "bottom",
-					"waterlogged": false
+					"waterlogged": "false"
 				}
 			}
 		}
@@ -114,7 +114,7 @@
 				"tag": "galactipack:launch_pad_slabs",
 				"state": {
 					"type": "bottom",
-					"waterlogged": false
+					"waterlogged": "false"
 				}
 			}
 		}
@@ -129,7 +129,7 @@
 				"tag": "galactipack:launch_pad_slabs",
 				"state": {
 					"type": "bottom",
-					"waterlogged": false
+					"waterlogged": "false"
 				}
 			}
 		}
